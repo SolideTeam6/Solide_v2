@@ -24,9 +24,16 @@
     <link rel="stylesheet" href="css/client.css">
 </head>
 <body class="appear-animate">
-    <div class="page-loader">
-        <div class="loader">Loading...</div>
+<div class="loaderWrap">
+        <div id='loader'>
+            <div class='diamond'></div>
+            <div class='diamond'></div>
+            <div class='diamond'></div>
+        </div>
     </div>
+    <!--div class="page-loader">
+        <div class="loader">Loading...</div>
+    </div-->
     <div class="page" id="top">
         <div class="home-section fullwidth-slider parallax-3" data-background="images/logoSolide/solide_background4.jpg" id="homef" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" style="background-position: right top;">
             <section class="home-section bg-scroll">
@@ -443,6 +450,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida
     <script type="text/javascript" src="js/main.js"></script>
 
     <script>
+	$(window).load(function () {
+        if ($(".loaderWrap").length > 0)
+        {
+            $(".loaderWrap").delay(500).fadeOut("slow");
+        }
+    });
+	
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

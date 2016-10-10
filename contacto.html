@@ -22,13 +22,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="appear-animate">
-
-    <!-- Page Loader -->
-    <div class="page-loader">
-        <div class="loader">Loading...</div>
-    </div>
-    <!-- End Page Loader -->
-    <!-- Page Wrap -->
+  <div class="loaderWrap">
+          <div id='loader'>
+              <div class='diamond'></div>
+              <div class='diamond'></div>
+              <div class='diamond'></div>
+          </div>
+      </div>
     <div class="page" id="top">
         <!-- Navigation panel -->
         <nav class="main-nav dark transparent stick-fixed">
@@ -297,6 +297,14 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/toastr.js"></script>
     <script type="text/javascript">
+
+    $(window).load(function () {
+          if ($(".loaderWrap").length > 0)
+          {
+              $(".loaderWrap").delay(500).fadeOut("slow");
+          }
+      });
+    
 
         $(document).ready(function () {
 
