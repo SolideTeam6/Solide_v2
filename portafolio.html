@@ -321,6 +321,17 @@
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript">
 
+        wow = new WOW(
+                          {
+                          boxClass:     'wow',      // default
+                          animateClass: 'animated', // default
+                          offset:       0,          // default
+                          mobile:       true,       // default
+                          live:         true        // default
+                        }
+                        )
+                        wow.init();
+
         $(window).load(function () {
               if ($(".loaderWrap").length > 0)
               {
@@ -328,7 +339,7 @@
               }
           });
 
-        
+
         $(document).ready(function() {
 
             $("#demo02").animatedModal({

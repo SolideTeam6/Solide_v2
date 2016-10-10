@@ -5,7 +5,133 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
 
+/*---------------------nav*/
+/* Effect 2: Top To Bottom*/
 
+.creativenav_SD ul{
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+.creativenav_SD ul > li {
+    list-style: outside none none;
+}
+.creativenav_SD ul > li a{
+	color:#435a6b;
+	font-size: 18px;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+
+    padding:25px 0;
+    position:relative;
+    width:20%;
+    float:left;
+    display:block;
+    overflow:hidden;
+    z-index:1000;
+
+    list-style:none;
+    text-align:center;
+    text-transform:uppercase;
+    cursor:pointer;
+    -webkit-transition:all 0.3s cubic-bezier(.75,.06,.27,.98);
+       -moz-transition:all 0.3s cubic-bezier(.75,.06,.27,.98);
+        -ms-transition:all 0.3s cubic-bezier(.75,.06,.27,.98);
+         -o-transition:all 0.3s cubic-bezier(.75,.06,.27,.98);
+            transition:all 0.3s cubic-bezier(.75,.06,.27,.98);
+    -webkit-box-shadow:inset 0px -3px 0px #435a6b,inset 0px 3px 0px #435a6b;
+       -moz-box-shadow:inset 0px -3px 0px #435a6b,inset 0px 3px 0px #435a6b;
+            box-shadow:inset 0px -3px 0px #435a6b,inset 0px 3px 0px #435a6b;
+
+}
+.creativenav_SD ul > li a:hover{
+	 color:rgba(255,255,255,0.8);
+    -webkit-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+    -moz-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+    box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+}
+
+
+/* Effect 3: 3D Effect*/
+
+.creativenav_3D ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+.creativenav_3D a {
+	font-size: 18px;
+	padding: 20px 50px;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+.creativenav_3D a {
+  color: #f690b4;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  vertical-align: top;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -ms-perspective: 600px;
+  perspective: 600px;
+  -webkit-perspective-origin: 50% 70%;
+  -moz-perspective-origin: 50% 70%;
+  -ms-perspective-origin: 50% 70%;
+  perspective-origin: 50% 70%;
+}
+.creativenav_3D a:hover span {
+  background: #e84b82;
+  -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  -ms-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+.creativenav_3D a span {
+  display: block;
+  position: relative;
+  padding: 12px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.creativenav_3D a span:after {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 12px;
+  color: #fff;
+  background: #e84b82;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -moz-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  -ms-transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+}
 
    /************** Loader Css ********/
    .loaderWrap{
