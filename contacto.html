@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Solide MX » Contacto</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Roman Kirichik">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="images/logoSolide/icon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/toastr.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="appear-animate">
+
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader">Loading...</div>
+    </div>
+    <!-- End Page Loader -->
+    <!-- Page Wrap -->
+    <div class="page" id="top">
+        <!-- Navigation panel -->
+        <nav class="main-nav dark transparent stick-fixed">
+            <div class="full-wrapper relative clearfix">
+                <!-- Logo ( * your text or image into link tag *) -->
+                <div class="nav-logo-wrap local-scroll">
+                    <a href="mp-index.html" class="logo small-height" style="height: 55px !important;">
+                        <img src="images/logoSolide/contralogo_large_b12x3.png" alt="" />
+                    </a>
+                </div>
+                <div class="mobile-nav">
+                    <i style="color: #000;" class="fa fa-bars"></i>
+                </div>
+
+                <!-- Main Menu -->
+                <div class="inner-nav desktop-nav">
+                    <ul class="clearlist">
+
+                        <!-- Item With Sub -->
+                        <li>
+                            <a href="index.html" style="font-size: 16px;" class="mn-has-sub active">Home <i class="fa fa-home"></i></a>
+                        </li>
+                        <li>
+                            <a href="portafolio.html" style="font-size: 16px;" class="mn-has-sub active">Nuestro trabajo <i class="fa fa-tags"></i></a>
+                        </li>
+                        <li>
+                            <a href="about.html" style="font-size: 16px;" class="mn-has-sub active">Sobre nosotros <i class="fa fa-suitcase"></i></a>
+                        </li>
+                        <li>
+                            <a href="contacto.html" style="font-size: 16px;" class="mn-has-sub active">contacto <i class="fa fa-phone"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Main Menu -->
+
+            </div>
+        </nav>
+        <!-- End Navigation panel -->
+        <!-- Head Section -->
+        <section class="page-section parallax-3" data-background="images/contact2_.jpg">
+            <div class="relative container align-left">
+
+                <div class="row">
+
+                    <div class="col-md-8 wow fadeIn" data-wow-duration="700ms" data-wow-delay="300ms">
+                        <h1 class="hs-line-11 font-alt mb-20 mb-xs-0" style="color: #FFF;">Contactanos</h1>
+                        <div class="hs-line-4 font-alt">
+                            Siempre estamos abiertos para hablar con la gente
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Head Section -->
+        <!-- Contact Section -->
+        <section class="page-section" id="contact" style="background: #2C3E50;">
+            <div class="container relative">
+                <h3 id="h3mensaje" class="font-alt mb-30 mb-xxs-10 align-center wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms" style="color: #fff;">
+                   envianos tu mensaje
+                </h3>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <form class="form contact-form" id="contact_form">
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Nombre" pattern=".{3,100}" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="input-md round form-control" placeholder="Email" pattern=".{5,100}" required="required">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" id="message" class="input-md round form-control" style="height: 84px;" placeholder="Mensaje" required="required"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="align-center pt-10">
+                                            <button class="btn btn-mod btn-w btn-medium btn-round" id="submit_btn">Enviar mensaje</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="result"></div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End Contact Form -->
+                <div class="row wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms" style="margin-top: 4%;">
+                    <div class="col-md-4" style="color: #FFF; text-align:center;">
+                        <i class="fa fa-2x fa-home" style="color: #C00d18;"></i>&nbsp; Calle Martires agraristas No. 339
+                    </div>
+                    <div class="col-md-4" style="color: #FFF; text-align:center;">
+                        <i class="fa fa-2x fa-phone" style="color: #C00d18;"></i>&nbsp; 614 - 128 - 65 - 06
+                    </div>
+                    <div class="col-md-4" style="color: #FFF; text-align:center;">
+                        <i class="fa fa-2x fa-envelope" style="color: #C00d18;"></i>&nbsp; <a style="color: #FFF;" href="mailto:Contacto@solidemx.com">Contacto@solidemx.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="google-map">
+            <div data-address="Hermanos Flores & Mártires Agraristas Francisco Villa Chihuahua, Chih." id="map-canvas"></div>
+            <div class="map-section">
+                <div class="map-toggle">
+                    <div>
+                        <i class="fa fa-2x fa-map-marker"></i>
+                    </div>
+                    <div class="mt-text font-alt">
+                        <div class="mt-open">Abrir mapa <i class="fa fa-angle-down"></i></div>
+                        <div class="mt-close" style="margin-top: 16%;">Cerrar mapa <i class="fa fa-angle-up"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="page-section" id="contact_2" style="background: #2C3E50;">
+            <div class="container relative">
+                <h3 id="h3idea" class="font-alt mb-30 mb-xxs-10 align-center wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms" style="color: #fff;">
+                   Platicanos tu idea, hacemos magia con ella
+                </h3>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <form class="form contact-form" id="contact_form">
+                            <div class="clearfix">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="project_name" class="input-md round form-control" placeholder="Nombre del proyecto" pattern=".{3,100}" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" name="type" id="type" class="input-md round form-control" placeholder="Tipo de proyecto" pattern=".{5,100}" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" name="budget" id="budget" class="input-md round form-control" placeholder="Presupuesto" pattern=".{5,100}" required="required">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" id="message" class="input-md round form-control" style="height: 84px;" placeholder="Descripción" required="required"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="target" id="target" class="input-md round form-control" style="height: 84px;" placeholder="Objetivo" required="required"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" name="company" id="company" class="input-md round form-control" placeholder="Compañia" pattern=".{3,100}" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" name="contact" id="contact" class="input-md round form-control" placeholder="Contacto" pattern=".{5,100}" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" name="phone" id="phone" class="input-md round form-control" placeholder="Teléfono" pattern=".{5,100}" required="required">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="align-center pt-10">
+                                            <button class="btn btn-mod btn-w btn-medium btn-round" id="submit_btn">Trabaja con nosotros</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="result"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="page-section bg-gray-lighter footer" style="padding: 10px; background: #202121;">
+            <div class="row">
+                <div class="col-md-2 wow fadeInUp" data-wow-delay="0.2s" style="margin-top: 1.6%;">
+                    <a href="http://www.facebook.com/solidemx" target="_blank"><i class="fa fa-facebook-square" style="color: #3b5998; font-size: 30px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" target="_blank"><i class="fa fa-twitter-square" style="color: #1da1f2; font-size: 30px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="" target="_blank"><i class="fa fa-linkedin-square" style="color: #0077b5; font-size: 30px;"></i></a>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s" style="margin-top: 2%;">
+                  <div class="footer-text">
+                      <div class="footer-copy font-alt" style="font-size: 13px;">
+                          <i class="fa fa-suitcase" style="color: #888;"></i> <a id="demo02" href="#lightSpeedIn">Misión y visión</a>
+                          &nbsp;&nbsp;<i class="fa fa-bank" style="color: #888;"></i><a id="demo03" href="#lightSpeedIn">Políticas</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-2 local-scroll wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="alt-features-icon">
+                        <a href="#top"><img id="logo_footer" src="images/logoSolide/logo_opacity.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="col-md-3 wow fadeInUp" data-wow-delay="0.8s" >
+                    <div class="footer-text" style="margin-top:7.6%;">
+                        <div class="footer-copy font-alt">
+                            <a href="#top" target="_blank">&copy; Solide MX 2016</a>.
+                        </div>
+                        <!--div class="footer-made">
+                            Made with <i class="fa fa-heart" style="color: #C00D18;"></i> for great people.
+                        </div-->
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 37px; background: #000;">
+              <div class="col-md-2 local-scroll wow fadeInUp" data-wow-delay="0.6s" style="margin-top: .6%; color: #fff;">
+                  <img id="logo_white" src="images/logoSolide/whitesolide.png" alt="" style="width: 64%; margin-top: -4.6%;"/>
+              </div>
+              <div class="col-md-2 col-md-offset-7 local-scroll wow fadeInUp" data-wow-delay="0.6s" style="margin-top: .6%; color: #fff;">
+                      Made with <i class="fa fa-heart" style="color: #C00D18;"></i> for great people.
+              </div>
+            </div>
+            <div class="local-scroll">
+                <a href="#top" class="link-to-top"><i class="fa fa-caret-up" style="color: #C00d18;"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg"></script>
+    <script type="text/javascript" src="js/gmap3.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript" src="js/animatedModal.min.js"></script>
+    <script type="text/javascript" src="js/contact-form.js"></script>
+    <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/toastr.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            function existeUrl(url) {
+                var http = new XMLHttpRequest();
+                http.open('HEAD', url, false);
+                http.send();
+                return http.status != 404;
+            }
+
+            $('#submit_btn').click(function () {
+                var filename = $('#email').val() + "_datos.txt";
+                if(existeUrl("Code/" + filename))
+                {
+                    filename = "_" + filename;
+                }
+                var name = $('#name').val();
+                var message = $('#message').val();
+                var email = $('#email').val();
+
+
+                var parametros = {
+                    "name": name,
+                    "message": message,
+                    "email": email,
+                    "filename": filename
+                };
+
+                if (!name || !message || !email)
+                    toastr.info('Existen campos vacios favor de llenarlos para continuar.');
+                else
+                {
+                    $.ajax({
+                        type: "POST",
+                        url: "Code/file.php",
+                        data: parametros,
+                        success: function (data) {
+                            toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+                        }
+                    });
+                }
+
+            });
+
+        });
+    </script>
+    <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+
+</body>
+</html>
