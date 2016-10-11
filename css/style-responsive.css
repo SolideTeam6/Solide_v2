@@ -9,6 +9,10 @@ Last change:   26/09/2016
 
 @media only screen and (max-width: 1666px) {
 
+  .creativenav_3D{
+    padding: 0 5% 0% 3%;
+  }
+
   #div_exclusividad{
     text-align: center;
   }
@@ -68,6 +72,10 @@ Last change:   26/09/2016
 }
 
 @media only screen and (max-width: 1366px) {
+
+  .creativenav_3D{
+    padding: 0 5% 0% 3%;
+  }
 
   #div_exclusividad{
     text-align: center;
@@ -303,6 +311,123 @@ Last change:   26/09/2016
    ============================== */
 
 @media only screen and (max-width: 1044px) {
+
+  .creativenav_3D{
+    padding: 0 5% 0% 3%;
+  }
+
+  .desktop-nav ul li a {
+    display: block;
+    width: 100%;
+    height: 38px !important;
+    line-height: 38px !important;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255, .065);
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.desktop-nav ul li a:hover {
+  background: rgba(255,255,255, .03);
+}
+
+.desktop-nav ul li a span {
+        padding: 0;
+}
+
+.desktop-nav ul li a span::after {
+    background: none;
+        padding: 0;
+}
+
+.desktop-nav::after{
+  clear: both;
+  content: " ";
+    display: table;
+}
+  .desktop-nav ul li {
+    width: 100%;
+    float: none !important;
+    overflow: hidden;
+}
+
+  .desktop-nav ul {
+    width: 100%;
+    float: none;
+    background: rgba(18,18,18, .97);
+    position: relative;
+    overflow-x: hidden;
+}
+
+  .desktop-nav ul {
+    width: 100%;
+    float: none;
+    background: rgba(18,18,18, .97);
+    position: relative;
+    overflow-x: hidden;
+}
+
+.inner-nav{
+      width: 100%;
+}
+.inner-nav ul {
+    float: right;
+    margin: auto;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3;
+}
+
+  .mobile-nav:active {
+    -webkit-box-shadow: 0 0 35px rgba(0,0,0,.05) inset;
+    -moz-box-shadow: 0 0 35px rgba(0,0,0,.05) inset;
+    box-shadow: 0 0 35px rgba(0,0,0,.05) inset;
+
+  }
+
+  .creativenav_3D{
+    padding: 0px 5px 0px 20px;
+  }
+
+  .fa-bars:before {
+      content: "\f0c9";
+  }
+
+  .mobile-nav .fa {
+    cursor: pointer;
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 21px;
+  }
+
+  .mobile-nav {
+        padding: 17px;
+    height: 55px;
+    line-height: 55px;
+    width: 55px;
+      display: block;
+      float: right;
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  .inner-nav{
+    display: none;
+  }
 
   #contact{
           padding: 40px 0px 40px 0px;
@@ -1756,6 +1881,11 @@ img.image_clientes{
    ============================== */
 
 @media only screen and (max-width: 319px) {
+
+  .creativenav_3D{
+    padding: 0% 0% 0% 2%;
+  }
+
 
   #h3mensaje{
     font-size: 17px;
