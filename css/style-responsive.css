@@ -9,6 +9,13 @@ Last change:   26/09/2016
 
 @media only screen and (max-width: 1666px) {
 
+  #down_scroll{
+    margin-top: -8%;
+  }
+
+#ul-nav{
+      padding: 0 2% 0px 0px;
+}
   .creativenav_3D{
     padding: 0 5% 0% 3%;
   }
@@ -730,6 +737,10 @@ margin-top: -1%;
 
 @media only screen and (max-width: 768px) {
 
+  #down_scroll{
+    margin-top: 0%;
+  }
+
   #contact{
         padding: 20px 20px 30px 20px;
   }
@@ -878,6 +889,10 @@ margin-top: -1%;
 }
 
 @media only screen and (max-width: 767px) {
+
+  #down_scroll{
+    margin-top: 0%;
+  }
 
   #contact{
         padding: 20px 20px 30px 20px;
@@ -1213,6 +1228,9 @@ margin-top: -1%;
 /*    medium phone -------------------------------------------*/
 @media only screen and (max-width: 610px) {
 
+  #down_scroll{
+    margin-top: 0%;
+  }
 
   #made_footer{
     width: 100%;
@@ -1543,6 +1561,11 @@ margin-top: -1%;
    ============================== */
 
 @media only screen and (max-width: 440px) {
+
+
+  #down_scroll{
+    margin-top: 0%;
+  }
 
   #h3mensaje{
     font-size: 17px;
@@ -1882,6 +1905,11 @@ img.image_clientes{
 
 @media only screen and (max-width: 319px) {
 
+
+  #down_scroll{
+    margin-top: 0%;
+  }
+  
   .creativenav_3D{
     padding: 0% 0% 0% 2%;
   }
