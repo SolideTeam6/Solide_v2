@@ -1161,7 +1161,7 @@ font-size: 20px;
     }*/
     #phone_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1190,7 +1190,7 @@ font-size: 20px;
 
     #contact_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1219,7 +1219,7 @@ font-size: 20px;
 
     #company_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1248,7 +1248,7 @@ font-size: 20px;
 
     #target_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1277,7 +1277,7 @@ font-size: 20px;
 
     #message_modal1{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1306,7 +1306,7 @@ font-size: 20px;
 
     #budget_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1335,7 +1335,7 @@ font-size: 20px;
 
     #type_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1364,7 +1364,7 @@ font-size: 20px;
 
     #project_name_modal{
 
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -1392,7 +1392,7 @@ font-size: 20px;
     }
 
 #name_modal{
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
 }
 
 #name_modal:hover::-webkit-input-placeholder{
@@ -1405,7 +1405,7 @@ font-size: 20px;
 }
 
 #email_modal{
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
 }
 
 #email_modal:hover::-webkit-input-placeholder{
@@ -1417,7 +1417,7 @@ font-size: 20px;
     color: #fff;
 }
 #message_modal{
-      border-bottom: 2px solid #2c3f4c;
+      border-bottom: 2px solid #C00D18;
 }
 
 #message_modal:hover::-webkit-input-placeholder{
