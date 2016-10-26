@@ -5,8 +5,7 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta charset="utf-8">
-        <meta name="author" content="Roman Kirichik">
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta name="author" content="MiguelMtz">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
         <link rel="shortcut icon" href="images/logoSolide/icon.png">
@@ -23,6 +22,12 @@
         <link rel="stylesheet" href="css/toastr.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/client.css">
+        <link href="css/gsi-step-indicator.min.css" rel="stylesheet" />
+        <link href="css/tsf-step-form-wizard.min.css" rel="stylesheet" />
+        <link href="css/demo.min.css" rel="stylesheet" />
+        <link href="css/parsley/css/parsley.css" rel="stylesheet" />
+        <link href="css/toastr.css" rel="stylesheet" />
+          <link href="css/ProgressBarWars.css" rel="stylesheet"/>
     </head>
     <body class="appear-animate">
       <div class="loaderWrap">
@@ -221,7 +226,7 @@
                     <div class="align-center">
                         <h3 class="banner-heading font-alt">¿Te ha gustado nuestro trabajo?</h3>
                         <div>
-                            <a href="#" class="btn btn-mod btn-w btn-medium btn-round wow fadeInUp">Mandanos un mensaje</a>
+                            <a id="contactanos" href="#animatedModal" class="btn btn-mod btn-w btn-medium btn-round wow fadeInUp">Mandanos un mensaje</a>
                         </div>
                     </div>
                 </div>
@@ -294,18 +299,207 @@
                     </div>
                     <div class="thumb col-lg-4" style="display:none; text-align: center; margin-top: 1.2%;">
                         <img  src="images/elections-badge-with-a-star.svg" style="width: 34%;">
-                        <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE;"> Visión </h3>
+                        <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE;"> Políticas </h3>
                         <p style="text-align: justify; color: #fff; TEXT-TRANSFORM: UPPERCASE;">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.
                           </p>
                     </div>
                </div>
             </div>
+            <!-- animatedmodal-->
+            <div id="animatedModal" style="background-color: ##2C3E50;">
+                <div id="closebt-container" class="close-animatedModal">
+                    <img class="closebt" src="images/closebt.svg">
+                </div>
+
+                <div class="modal-content">
+                    <div class="demo-settings" data-open="true" style="display: none;">
+                        <div class="settings-icon">
+                            <a href="#" class="btn-setting"><i class="fa fa-2x fa-cogs"></i></a>
+                            <a href="#" class="btn-remove"><i class="fa fa-2x fa-times"></i></a>
+                        </div>
+                        <div class="settings-main">
+                            <label>Step effect</label>
+                            <select class="form-control" id="stepEffect">
+                                <option value="basic" selected="selected">basic</option>
+                                <option value="bounce">bounce</option>
+                                <option value="slideRightLeft">slideRightLeft</option>
+                                <option value="slideLeftRight">slideLeftRight</option>
+                                <option value="flip">flip</option>
+                                <option value="transformation">transformation</option>
+                                <option value="slideDownUp">slideDownUp</option>
+                                <option value="slideUpDown">slideUpDown</option>
+                            </select>
+                            <br />
+                            <label for="stepTransition">
+                                Step transition <input type="checkbox" id="stepTransition" name="stepTransition" value="11" checked />
+                            </label>
+                            <br />
+                            <label for="showButtons">
+                                Show buttons <input type="checkbox" id="showButtons" name="showButtons" value="111" checked />
+                            </label>
+                            <br />
+                            <label for="showStepNum">
+                                Show stepNum <input type="checkbox" id="showStepNum" name="showStepNum" value="123" checked />
+                            </label>
+
+
+                        </div>
+                    </div>
+                    <div class="row col-md-12" style="padding: 2% 5% 2% 5%;">
+                        <div class="tsf-wizard tsf-wizard-1">
+                            <div class="tsf-nav-step">
+                                <ul class="gsi-step-indicator triangle gsi-style-1  gsi-transition" style="padding-left: 4%;">
+                                    <li class="current" data-target="step-1" style="width: 48%;">
+                                        <a id="step1">
+                                            <span class="number">1</span>
+                                            <span class="desc">
+                                                <label>Envianos tu mensaje</label>
+                                                <span>Siempre disponibles para trabajar contigo </span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li data-target="step-2" style="width: 48%;">
+                                        <a id="step2">
+                                            <span class="number">
+                                                2
+                                            </span>
+                                            <span class="desc">
+                                                <label>¿ Tiene algún proyecto que te gustaría trabajar ?</label>
+                                                <span>Mandanos tu propuesta y la atendemos de inmediato</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div id="vader" style="width: 96%; padding-left: 4%;"></div>
+                            </div>
+                            <div class="tsf-container">
+                                <div class="tsf-content" style="border: none;">
+                                    <div class="tsf-step step-1 active">
+                                        <fieldset>
+                                            <div class="row">
+                                                <div class="col-md-10 col-md-offset-1">
+                                                    <form class="form" id="form-mensaje">
+                                                        <div class="clearfix">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="name" id="name_modal" class="input-md round form-control" placeholder="Nombre">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <input type="email" name="email" id="email_modal" class="input-md round form-control" placeholder="Email">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="form-group">
+                                                                        <textarea name="message" id="message_modal" class="input-md round form-control" style="height: 84px;" placeholder="Mensaje"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="align-center pt-10">
+                                                                        <button style="width: 100%;" class="btn btn-mod btn-w btn-medium btn-round" id="submit_modal_envio">Enviar mensaje</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <div class="tsf-step step-2">
+                                        <fieldset>
+                                            <form class="tsf-step-content">
+                                              <div class="row">
+                                                  <div class="col-md-10 col-md-offset-1">
+                                                      <form class="form" id="contact_form">
+                                                          <div class="clearfix">
+                                                              <div class="row">
+                                                                  <div class="col-md-4">
+                                                                      <div class="form-group">
+                                                                          <input type="text" name="name" id="project_name_modal" class="input-md round form-control" placeholder="Nombre del proyecto" pattern=".{3,100}" required="required">
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-md-4">
+                                                                      <div class="form-group">
+                                                                          <input type="text" name="type" id="type_modal" class="input-md round form-control" placeholder="Tipo de proyecto" pattern=".{5,100}" required="required">
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-md-4">
+                                                                      <div class="form-group">
+                                                                          <input type="text" name="budget" id="budget_modal" class="input-md round form-control" placeholder="Presupuesto" pattern=".{5,100}" required="required">
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="row">
+                                                                  <div class="col-md-12">
+                                                                      <div class="form-group">
+                                                                          <textarea name="message" id="message_modal1" class="input-md round form-control" style="height: 84px;" placeholder="Descripción" required="required"></textarea>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="row">
+                                                                  <div class="col-md-12">
+                                                                      <div class="form-group">
+                                                                          <textarea name="target" id="target_modal" class="input-md round form-control" style="height: 84px;" placeholder="Objetivo" required="required"></textarea>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="row">
+                                                                  <div class="col-md-4">
+                                                                      <div class="form-group">
+                                                                          <input type="text" name="company" id="company_modal" class="input-md round form-control" placeholder="Compañia" pattern=".{3,100}" required="required">
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-md-4">
+                                                                      <div class="form-group">
+                                                                          <input type="text" name="contact" id="contact_modal" class="input-md round form-control" placeholder="Contacto" pattern=".{5,100}" required="required">
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-md-4">
+                                                                      <div class="form-group">
+                                                                          <input type="text" name="phone" id="phone_modal" class="input-md round form-control" placeholder="Teléfono" pattern=".{5,100}" required="required">
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                              <div class="row">
+                                                                  <div class="col-md-12">
+                                                                      <div class="align-center pt-10">
+                                                                          <button style="width: 100%;" class="btn btn-mod btn-w btn-medium btn-round" id="submit_btn">Trabaja con nosotros</button>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                          <div id="result"></div>
+                                                      </form>
+                                                  </div>
+                                              </div>
+                                            </form>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                                <div class="tsf-controls">
+                                    <button type="button" data-type="prev" class="btn btn-left tsf-wizard-btn" id="anterior">
+                                        <i class="fa fa-chevron-left"></i> ANTERIOR
+                                    </button>
+                                    <button type="button" data-type="next" id="siguiente" class="btn btn-right tsf-wizard-btn">
+                                        SIGUIENTE <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                    <button type="button" id="Guardar_Modal" data-type="finish" class="btn btn-right tsf-wizard-btn">
+                                        CONTINUAR
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- End Page Wrap -->
-
-
-        <!-- JS -->
         <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -333,6 +527,11 @@
         <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/demo.js"></script>
+        <script type="text/javascript" src="css/parsley/js/parsley.min.js"></script>
+        <script type="text/javascript" src="js/tsf-wizard-plugin.js"></script>
+        <script type="text/javascript" src="js/ProgressBarWars.js"></script>
+        <script type="text/javascript" src="js/toastr.js"></script>
         <script type="text/javascript">
 
         wow = new WOW(
@@ -353,8 +552,89 @@
               }
           });
 
+          window.onload = function () {
+
+              $("#anterior").html('Anterior');
+              $("#siguiente").html('Siguiente');
+              $("#Guardar_Modal").html('Salir');
+          }
+
 
         $(document).ready(function() {
+
+          toastr.options = {
+              "closeButton": false,
+              "debug": false,
+              "newestOnTop": false,
+              "progressBar": false,
+              "positionClass": "toast-top-center",
+              "preventDuplicates": false,
+              "showDuration": "1000",
+              "hideDuration": "10000",
+              "timeOut": "10000",
+              "extendedTimeOut": "10000",
+              "showEasing": "swing",
+              "hideEasing": "linear",
+              "showMethod": "fadeIn",
+              "hideMethod": "fadeOut"
+          }
+
+          $('#submit_modal_envio').click(function (event) {
+              var filename = $('#email_modal').val() + "_datos.txt";
+              if(existeUrl("Code/" + filename))
+              {
+                  filename = "_" + filename;
+              }
+              var name = $('#name_modal').val();
+              var message = $('#message_modal').val();
+              var email = $('#email_modal').val();
+
+              var parametros = {
+                  "name": name,
+                  "message": message,
+                  "email": email,
+                  "filename": filename
+              };
+
+              if (!name || !message || !email){
+                    toastr.info('Existen campos vacios favor de llenarlos para continuar.');
+              }
+              else
+              {
+                  $.ajax({
+                      type: "POST",
+                      url: "Code/file.php",
+                      data: parametros,
+                      success: function (data) {
+                          toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+                      }
+                  });
+              }
+                   event.preventDefault();
+          });
+
+          var vd=$("#vader").ProgressBarWars({porcentaje:50,estilo:"vader"});
+
+          $("#step1").click(function() {
+             vd.mover(50);
+          });
+
+          $("#step2").click(function() {
+             vd.mover(100);
+          });
+
+          $("#siguiente").click(function() {
+             vd.mover(100);
+          });
+
+          $("#anterior").click(function() {
+             vd.mover(50);
+          });
+
+          $("#contactanos").animatedModal({
+
+            color: '#2C3E50'
+          });
 
             $("#demo02").animatedModal({
                 modalTarget:'lightSpeedIn',
