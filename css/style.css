@@ -4199,6 +4199,18 @@ a.logo:hover {
     opacity: 1;
 }
 
+a.prePhoto {
+    background: #C00D18 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    position: relative;
+    right: 3px;
+    top: 92px;
+    width: 40px;
+}
 
 
 /* Work item hover state */
@@ -4222,11 +4234,12 @@ a.logo:hover {
 }
 
 .work-item:hover .work-title {
-    color: #ccc;
+    color: #fff;
+    font-size: 19px;
 }
 
 .work-item:hover .work-descr {
-    color: #999;
+    color: #fff;
 }
 
 .work-item .work-img:after {
