@@ -230,8 +230,63 @@ Last change:   26/09/2016
             margin-top: -10%;
     }
 }
+@media only screen and (min-width:440px) and (max-width: 610px){
+
+#work-grid > li{
+  width: 50%;
+  }
+
+  #ddd{
+    display: none;
+    }
+}
+
+@media only screen and (min-width:319px) and (max-width: 440px){
+
+#work-grid > li{
+  width: 50%;
+}
+  #cleancube #cleancube_img {
+  -webkit-transition: all .5s ease;
+  }
+
+  #cleancube #cleancube_img:hover {
+  height: 48%;
+  width: 48%;
+  margin-left:26%;
+  }
+
+}
+
+@media only screen and (min-width:1199px) and (max-width: 1366px){
+
+  #cleancube #cleancube_img {
+  -webkit-transition: all .5s ease;
+  }
+
+  #cleancube #cleancube_img:hover {
+  height: 27%;
+  width: 27%;
+  margin-left: 36.1%;
+  }
+
+}
+
+@media only screen and (min-width:1044px) and (max-width: 1199px){
+
+    #cleancube #cleancube_img {
+    -webkit-transition: all .5s ease;
+    }
+
+    #cleancube #cleancube_img:hover {
+    height: 31.5%;
+    width: 31.5%;
+    margin-left: 34.3%;
+    }
+}
 
 @media only screen and (max-width: 1199px) {
+
 
   #made_footer{
     width: 20%;

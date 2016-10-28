@@ -4,10 +4,32 @@
 @import "et-line.css";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
+/*
+#cleancube #cleancube_img {
+  height: 25%;
+width: 25%;
+-webkit-transition: all .5s ease;
+}
 
-/*---------------------nav*/
-/* Effect 2: Top To Bottom*/
+#cleancube #cleancube_img:hover {
+height: 27%;
+width: 27%;
+margin-left: 36.1%;
 
+}
+/*
+.creativenav_SD{
+  -webkit-perspective: 800px;
+}
+
+.creativenav_SD #contralogo{
+-webkit-transition: all 1s ease;
+}
+
+.creativenav_SD #contralogo:hover{
+margin-top: 5px;
+}
+*/
 .creativenav_SD ul{
     margin: 0;
     padding: 0;
@@ -91,12 +113,14 @@
   -ms-perspective-origin: 50% 70%;
   perspective-origin: 50% 70%;
 }
+
 .creativenav_3D a:hover span {
   background: #fff;
   -webkit-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
   -moz-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
   -ms-transform: translate3d(0px, 0px, -30px) rotateX(90deg);
   transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+    /*  -webkit-transform: translateZ(20px);*/
 }
 .creativenav_3D a span {
   display: block;
