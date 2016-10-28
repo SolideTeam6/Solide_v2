@@ -4,18 +4,17 @@
 @import "et-line.css";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,400,700);
-/*
-#cleancube #cleancube_img {
-  height: 25%;
-width: 25%;
+
+#work-grid > li{
 -webkit-transition: all .5s ease;
 }
 
-#cleancube #cleancube_img:hover {
-height: 27%;
-width: 27%;
-margin-left: 36.1%;
+#work-grid > li{
+-webkit-transition: all .5s ease;
+}
 
+#work-grid > li:hover{
+-webkit-transform: translate3d(0px, 0px, 30px);
 }
 /*
 .creativenav_SD{
