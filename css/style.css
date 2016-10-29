@@ -12,7 +12,7 @@
 #work-grid > li:hover{
 -webkit-transform: translate3d(0px, 0px, 30px) rotateX(10deg);
 }
-/*
+
 .creativenav_SD{
   -webkit-perspective: 800px;
 }
@@ -24,7 +24,102 @@
 .creativenav_SD #contralogo:hover{
 margin-top: 5px;
 }
-*/
+
+#work-grid li a .work-img div.triangulo{
+  position:fixed;
+  padding: 5%;
+
+}*/
+/*
+.triangulo i {
+    color: #fff;
+    float: none;
+    display: inline;
+    z-index: 3;
+}*/
+
+
+
+#ver-img{
+  -webkit-sizing: border-box;
+  overflow: hidden;
+  position:absolute;
+  width: 10%;
+  top: 40%;
+  right: -10%;
+  /*-webkit-animation: MoveUpDown 1s infinite;*/
+}
+
+#ver-img:active{
+  -webkit-transform: translate3D(0,0,20px);
+  /*-webkit-animation: MoveUpDown 1s infinite;*/
+}
+.work-item:hover #ver-img {
+
+  -webkit-transform: translateX(-570%);
+  -moz-transform: translateX(-570%);
+  transform: translateX(-570%);
+  z-index: 3;
+}
+.triangulo:after{
+  color: #fff;
+  font-size: 15px;
+  font-style: bold;
+
+}
+
+.triangulo {
+    -webkit-sizing: border-box;
+    overflow: visible;
+    position:absolute;
+    width: 0;
+    height: 0;
+    top: -60px;
+    left: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid #C00d18;
+}
+
+.triangulo {
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.line1 {
+  width: 15px;
+  height: 15px;
+    border-bottom: 2px solid #fff;
+    -webkit-transform:
+        translateY(-20px)
+        translateX(45px)
+        rotate(0deg);
+    position: absolute;
+    z-index: 3;
+    top: -36px;
+left: -36px;
+    /* top: -20px; */
+}
+.line2 {
+  width: 15px;
+    height: 15px;
+    border-bottom: 2px solid #fff;
+    -webkit-transform:
+        translateY(20px)
+        translateX(45px)
+        rotate(-90deg);
+    position: absolute;
+    top: -69px;
+left: -43px;
+    z-index: 3;
+}
+
+.work-item:hover .triangulo {
+    color: #c00d18;
+    -webkit-transform: translateY(60px);
+    -moz-transform: translateY(60px);
+    transform: translateY(60px);
+    z-index: 3;
+}
+
 .creativenav_SD ul{
     margin: 0;
     padding: 0;
