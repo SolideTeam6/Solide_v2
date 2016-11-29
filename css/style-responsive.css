@@ -319,6 +319,10 @@ Last change:   22/11/2016
         visibility: hidden;
         /*  display: none;*/
     }
+    #li_tittle{
+        width: 270%;
+        margin-left: 18%;
+    }
 }
 
 /**/
@@ -661,6 +665,11 @@ Last change:   22/11/2016
             width: 48%;
             margin-left: 26%;
         }
+
+         #li_tittle{
+        width: 220%;
+        margin-left: 15%;
+    }
 }
 
 /* --------------------------------------------
@@ -1052,7 +1061,7 @@ Last change:   22/11/2016
     }
 }
 
-@media only screen /*and (min-width: 768px)*/ and (max-width: 1666px) {
+@media only screen and (min-width: 1367px) and (max-width: 1666px) {
 
     #row_carousel_principal {
         margin-top: 620px;
@@ -1066,14 +1075,41 @@ Last change:   22/11/2016
     span.font2light.dark-bg.white {
         font-size: 18px;
     }
+         #div_tittle{
+        width: 80%;
+    }
+             #li_tittle{
+        width: 88%;
+        margin-left: 14%;
+    }
+               #li_cube{
+        width: 88%;
+        margin-left: -75%;
+    }
+        #div_button{
+       margin-top: -300px;
+    }
+
+   #buton_header{
+       margin-top: -250px;
+    }
+
+      #div_medida{
+       margin-top: -250px;
+           letter-spacing: 5px;
+    }
 }
 
-@media only screen /*and (min-width: 768px)*/ and (max-width: 1366px) {
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
 
     #row_carousel_principal {
         margin-top: 620px;
     }
 
+      #li_cube{
+        width: 88%;
+        margin-left: -45%;
+    }
 
         #row_carousel_principal div div div div .image_clientes {
             width: 135px;
@@ -1082,9 +1118,48 @@ Last change:   22/11/2016
     span.font2light.dark-bg.white {
         font-size: 18px;
     }
+
+            #div_tittle{
+        width: 80%;
+    }
+             #li_tittle{
+        width: 88%;
+        margin-left: 17%;
+    }
+        #div_button{
+       margin-top: -100%;
+    }
+
+   #buton_header{
+       margin-top: -250px;
+    }
+
+      #div_medida{
+       margin-top: -250px;
+           letter-spacing: 5px;
+    }
 }
 
-@media only screen /*and (min-width: 768px)*/ and (max-width: 1199px) {
+@media only screen and (min-width: 1045px) and (max-width: 1199px) {
+          #div_tittle{
+        width: 80%;
+    }
+             #li_tittle{
+        width: 90%;
+        margin-left: 20%;
+    }
+        #div_button{
+       margin-top: -100%;
+    }
+
+   #buton_header{
+       margin-top: -250px;
+    }
+
+      #div_medida{
+       margin-top: -250px;
+           letter-spacing: 5px;
+    }
 
     #row_carousel_principal {
         margin-top: 620px;
@@ -1116,7 +1191,7 @@ Last change:   22/11/2016
     }
 }
 
-@media only screen /*and (min-width: 768px)*/ and (max-width: 1044px) {
+@media only screen and (min-width: 993px) and (max-width: 1044px) {
 
     #row_carousel_principal {
         margin-top: 620px;
@@ -1130,12 +1205,52 @@ Last change:   22/11/2016
     span.font2light.dark-bg.white {
         font-size: 18px;
     }
+
+            #div_tittle{
+        width: 80%;
+    }
+             #li_tittle{
+        width: 100%;
+        margin-left: 20%;
+    }
+        #div_button{
+       margin-top: -100%;
+    }
+
+   #buton_header{
+       margin-top: -250px;
+    }
+
+      #div_medida{
+       margin-top: -250px;
+           letter-spacing: 5px;
+    }
 }
 
 /* --------------------------------------------
      Resolution max 992px
 -----------------------------------------------*/
 @media only screen and (max-width: 992px) {
+
+            #div_tittle{
+        width: 80%;
+    }
+             #li_tittle{
+        width: 100%;
+        margin-left: 20%;
+    }
+        #div_button{
+       margin-top: -100%;
+    }
+
+   #buton_header{
+       margin-top: -250px;
+    }
+
+      #div_medida{
+       margin-top: -250px;
+           letter-spacing: 5px;
+    }
 
 
     #logo_white {
@@ -1790,6 +1905,8 @@ Last change:   22/11/2016
 -----------------------------------------------*/
 @media only screen and (max-width: 610px) {
 
+    
+
     #down_scroll {
         margin-top: 0%;
     }
@@ -2128,6 +2245,30 @@ Last change:   22/11/2016
     #row_carousel_principal {
         margin-top: 58%;
     }
+
+     #li_tittle{
+        width: 100%;
+        margin-left: 18%;
+    }
+
+     #div_tittle{
+         margin-top: 20%;
+     }
+     #div_cube{
+         margin-top: 20%;
+     }
+      #div_welcome{
+         margin-top: 40%;
+     }
+
+       #div_button{
+         margin-top: -70%;
+     }
+
+       #buton_header{
+         margin-top: -100%;
+     }
+      
 }
 
 
@@ -2142,6 +2283,19 @@ Last change:   22/11/2016
         #row_carousel_principal div div div div .image_clientes {
             width: 50%;
         }
+        
+      #li_tittle{
+        width: 100%;
+        margin-left: 15%;
+    }
+        #div_button{
+       margin-top: -70%;
+    }
+
+   #buton_header{
+       margin-top: -80%;
+    }
+
 }
 
 /* ---------------------------------------------------
@@ -2160,7 +2314,7 @@ Last change:   22/11/2016
 /* ---------------------------------------------------
      Resolution max width  1024px and max heigh 769px
 -------------------------------------------------------*/
-@media only screen and (max-width: 1024px) and (max-height: 768px) {
+@media only screen  and (min-width: 769px) and (max-width: 1024px) and (max-height: 768px) {
     #row_carousel_principal {
         margin-top: 60%;
     }
@@ -2168,6 +2322,26 @@ Last change:   22/11/2016
         #row_carousel_principal div div div div .image_clientes {
             width: 45%;
         }
+
+            #div_tittle{
+        width: 80%;
+    }
+             #li_tittle{
+        width: 100%;
+        margin-left: 20%;
+    }
+        #div_button{
+       margin-top: -100%;
+    }
+
+   #buton_header{
+       margin-top: -250px;
+    }
+
+      #div_medida{
+       margin-top: -250px;
+           letter-spacing: 5px;
+    }
 }
 
 /* ---------------------------------------------------
@@ -2201,16 +2375,29 @@ Last change:   22/11/2016
             margin-top: 58%;
     }
 }*/
+/*@media only screen and (min-width: 440px) and (max-width: 609px) {
 
+     #div_medida{
+        margin-top: -20%;
+    }
+
+      #li_tittle{
+        width: 100%;
+        margin-left: 15%;
+    }
+        #div_button{
+       margin-top: -70%;
+    }
+
+   #buton_header{
+       margin-top: -80%;
+    }
+   }*/
 /* --------------------------------------------
      Resolution max 440px
 -----------------------------------------------*/
 
-@media only screen and (max-width: 440px) {
 
-    /* #row_carousel_principal{
-        margin-top: 140%;
-    }*/
 
     #section_ultimos_proyectos #h2_ultimos_proyectos {
         margin-top: 12%;

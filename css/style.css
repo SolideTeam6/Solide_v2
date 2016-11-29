@@ -1117,6 +1117,16 @@ a.btn-mod2 {
     background: #C00D18;
 }
 
+.btn-mod_.btn-w {
+    color: #fff;
+    background: #C00D18;
+}
+
+.btn-mod_.btn-round {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
 
 .btn-mod.btn-ww {
 color: #fff;
@@ -1943,7 +1953,7 @@ textarea:hover::-webkit-input-placeholder {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: 51px;
+    letter-spacing: 16px;
     color: #fff;
     opacity: .9;
 }
