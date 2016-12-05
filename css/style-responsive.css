@@ -2239,6 +2239,15 @@ Last change:   22/11/2016
 }
 
 @media only screen and (min-width: 325px) and (max-width: 420px) {
+
+    div.tsf-wizard div.tsf-nav-step ul.gsi-step-indicator li a span.desc span{
+        display: none;
+    }
+
+    div.tsf-wizard div.tsf-nav-step ul.gsi-step-indicator li {
+        float: left  !important;
+    }
+
     #row_carousel_principal {
         position: relative;
         margin-top: 80vh;
