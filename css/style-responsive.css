@@ -2240,6 +2240,22 @@ Last change:   22/11/2016
 
 @media only screen and (min-width: 325px) and (max-width: 420px) {
 
+    #section_ultimos_proyectos div h2{
+        font-size: 22px;
+    }
+
+    #services div h2{
+        font-size: 22px;
+    }
+
+    #section_elegir_solide div h2{
+            font-size: 22px;
+    }
+
+    #section_algun_proyecto div h3{
+        font-size: 17px;
+    }
+
     div.tsf-wizard div.tsf-nav-step ul.gsi-step-indicator li a span.desc span{
         display: none;
     }
