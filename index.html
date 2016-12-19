@@ -487,7 +487,7 @@
                 </h3>
                 <div class="row">
                     <div class="col-sm-3 col-lg-4 col-lg-offset-4 pb-xs-0 align-center wow zoomIn" data-wow-duration="400ms" id="div_idea">
-                        <a href="contacto.html" class="btn btn-mod btn-w btn-medium btn-round">Platicanos tu idea y la <br />hacemos realidad</a>
+                        <a href="#animatedModal" class="btn btn-mod btn-w btn-medium btn-round" id="platicanos">Platicanos tu idea y la <br />hacemos realidad</a>
                     </div>
                 </div>
             </div>
@@ -563,7 +563,7 @@
             </div>
             <div class="thumb col-lg-4" style="display:none; text-align: center; margin-top: 1.2%;">
                 <img src="images/elections-badge-with-a-star.svg" style="width: 34%;">
-                <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE;"> Visión </h3>
+                <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE;"> Políticas </h3>
                 <p style="text-align: justify; color: #fff; TEXT-TRANSFORM: UPPERCASE;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.
                 </p>
@@ -571,7 +571,7 @@
         </div>
     </div>
     <!--DEMO02    style="background-image: url(images/logoSolide/solide_background4.jpg);" data-backdrop="static" data-keyboard="false"-->
-    <div id="animatedModal" style="background-color: ##2C3E50;">
+    <div id="animatedModal">
         <div id="closebt-container" class="close-animatedModal">
             <img class="closebt" src="images/closebt.svg">
         </div>
@@ -682,7 +682,7 @@
                                     <form class="tsf-step-content">
                                         <div class="row">
                                             <div class="col-md-10 col-md-offset-1">
-                                                <form class="form" id="contact_form">
+                                                <div class="form" id="contact_form">
                                                     <div class="clearfix">
                                                         <div class="row">
                                                             <div class="col-md-4">
@@ -741,7 +741,7 @@
                                                         </div>
                                                     </div>
                                                     <div id="result"></div>
-                                                </form>
+                                                </div>
                                             </div>
                                         </div>
                                     </form>
@@ -1132,6 +1132,28 @@
                 animatedIn: 'lightSpeedIn',
                 animatedOut: 'bounceOutDown',
                 color: '#C00d18',
+                beforeOpen: function () {
+
+                    var children = $(".thumb");
+                    var index = 0;
+
+                    function addClassNextChild() {
+                        if (index == children.length) return;
+                        children.eq(index++).show().velocity("transition.slideRightIn", { opacity: 1, stagger: 450, defaultDuration: 100 });
+                        window.setTimeout(addClassNextChild, 100);
+                    }
+                    addClassNextChild();
+                },
+                afterClose: function () {
+                    $(".thumb").hide();
+                }
+            });
+
+            $("#platicanos").animatedModal({
+                modalTarget: 'animatedModal',
+                animatedIn: 'lightSpeedIn',
+                animatedOut: 'bounceOutDown',
+                color: '#2C3E50',
                 beforeOpen: function () {
 
                     var children = $(".thumb");
