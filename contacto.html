@@ -101,7 +101,7 @@
                 </h3>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <form name="frmContacto" method="post" action="sendbymail.php">
+                        <form name="frmContacto">
                             <div class="clearfix">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -126,7 +126,7 @@
                                     <div class="col-md-12">
                                         <div class="align-center pt-10">
                                             
-                                            <button type="submit" value="Enviar" class="btn btn-mod btn-w btn-medium btn-round" style="width: 100%;" name="" id="submit">Enviar</button>
+                                            <button type="submit" value="Enviar" class="btn btn-mod btn-w btn-medium btn-round" style="width: 100%;" name="" id="submit_CONTACTO">Enviar</button>
                                         </div>
 
                                     </div>
@@ -363,6 +363,28 @@
                         type: "POST",
                         url: "Code/file.php",
                         data: parametros,
+                        success: function (data) {
+                            toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+                        }
+                    });
+                }
+
+            });
+
+            $('#submit_CONTACTO').click(function () {
+
+                var name = $('#name').val();
+                var message = $('#message').val();
+                var email = $('#email').val();
+
+
+                if (!name || !message || !email)
+                    toastr.info('Existen campos vacios favor de llenarlos para continuar.');
+                else {
+                    $.ajax({
+                        type: "POST",
+                        url: "sendbyemail.php",
+                        data: { name: name, message: message, email: email },
                         success: function (data) {
                             toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
                         }

@@ -60,6 +60,10 @@ margin-top: 5px;
   z-index: 3;
 }*/
 
+li.work-item:hover{
+         cursor: url(/images/plus-dark.png) 40 40, crosshair; 
+}
+
 #closebt-container {
     text-align: center;
 }
@@ -104,6 +108,10 @@ margin-top: 5px;
     /*  display: block;*/
     visibility: visible;
     z-index: 3;
+}
+
+.work-item a.see-img:hover{
+        cursor: url(/images/zoom.png) 40 40, crosshair;
 }
 
 .triangulo:after {

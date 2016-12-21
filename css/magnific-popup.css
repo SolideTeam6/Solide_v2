@@ -294,7 +294,9 @@ img.mfp-img {
   max-width: 100%; }
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
-  cursor: pointer; }
+     cursor: url(/images/drag.png) 40 40, crosshair;
+
+}
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
