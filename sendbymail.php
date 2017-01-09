@@ -6,10 +6,9 @@ $email_to = "contacto@solidemx.com";
 $email_subject = "Contacto";
 
 // Aquí se deberían validar los datos ingresados por el usuario
-if(!isset($_POST['name']) ||
+if(!isset($_POST['nombre']) ||
 !isset($_POST['email']) ||
-!isset($_POST['message']) ||
-!isset($_POST['message'])) {
+!isset($_POST['mensaje'])  {
 
 echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
 echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
