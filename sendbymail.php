@@ -28,6 +28,9 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 
-echo "Correo enviado con exito.";
+echo '<script type="text/javascript">',
+     'IsCorrect();',
+     '</script>'
+;
 }
 ?>

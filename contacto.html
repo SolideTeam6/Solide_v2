@@ -101,7 +101,7 @@
                 </h3>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <form name="frmContacto">
+                        <form name="frmContacto" method="post" action="sendbymail.php">
                             <div class="clearfix">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -125,7 +125,6 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="align-center pt-10">
-                                            
                                             <button type="submit" value="Enviar" class="btn btn-mod btn-w btn-medium btn-round" style="width: 100%;" name="" id="submit_CONTACTO">Enviar</button>
                                         </div>
 
@@ -336,6 +335,14 @@
                 http.send();
                 return http.status != 404;
             }
+			
+			function IsCorrect()
+			{
+			var pagina="http://www.solidemx.com";
+				location.href=pagina
+				toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+				
+			}
 
             $('#submit_btn').click(function () {
                 var filename = $('#email').val() + "_datos.txt";
@@ -371,7 +378,7 @@
 
             });
 
-            $('#submit_CONTACTO').click(function () {
+          /*  $('#submit_CONTACTO').click(function () {
 
                 var name = $('#name').val();
                 var message = $('#message').val();
@@ -392,7 +399,7 @@
                 }
 
             });
-
+*/
         });
     </script>
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
