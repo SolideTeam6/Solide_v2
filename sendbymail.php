@@ -28,8 +28,7 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);
 
 echo '<script type="text/javascript">',
-'var pagina="http://www.solidemx.com";',
-				'location.href=pagina;',
+				'toastr.success("Mensaje enviado con éxito, en un momento te antederemos.");',
      '</script>'
 ;
 }
