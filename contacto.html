@@ -389,8 +389,8 @@
                     toastr.info('Existen campos vacios favor de llenarlos para continuar.');
                 else {
                     $.ajax({
-                        type: "POST",
-                        url: "sendbymail.php",
+                        type: 'POST',
+                        url: sendbymail.php,
                         data: { nombre: name, mensaje: message, email: email },
                         success: function (data) {
                             toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
