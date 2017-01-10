@@ -101,7 +101,7 @@
                 </h3>
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <form name="frmContacto" method="post" action="sendbymail.php">
+                        <form name="frmContacto">
                             <div class="clearfix">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -378,10 +378,10 @@
 
             });
 
-          /*  $('#submit_CONTACTO').click(function () {
+            $('#submit_CONTACTO').click(function () {
 
-                var name = $('#name').val();
-                var message = $('#message').val();
+                var name = $('#nombre').val();
+                var message = $('#mensaje').val();
                 var email = $('#email').val();
 
 
@@ -390,8 +390,8 @@
                 else {
                     $.ajax({
                         type: "POST",
-                        url: "sendbyemail.php",
-                        data: { name: name, message: message, email: email },
+                        url: "sendbymail.php",
+                        data: { nombre: name, mensaje: message, email: email },
                         success: function (data) {
                             toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
                         }
@@ -399,7 +399,7 @@
                 }
 
             });
-*/
+
         });
     </script>
     <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
