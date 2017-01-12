@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/toastr.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!--<link rel="stylesheet" href="css/main.css">-->
+    <link rel="stylesheet" href="css/main2.css">
 </head>
 <body class="appear-animate">
   <div class="loaderWrap">
@@ -100,25 +101,25 @@
                    envianos tu mensaje
                 </h3>
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-8 col-md-offset-0">
                         <form name="frmContacto">
                             <div class="clearfix">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="nombre" id="nombre" class="input-md round form-control" placeholder="Nombre" required="required">
+                                            <input type="text" name="nombre" id="budget_modal" class="input-md round form-control" placeholder="Nombre" required="required">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="email" name="email" id="email" class="input-md round form-control" placeholder="Email"  required="required">
+                                            <input type="email" name="email" id="target_modal" class="input-md round form-control" placeholder="Email"  required="required">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea name="mensaje" id="mensaje" class="input-md round form-control" style="height: 84px;" placeholder="Mensaje" required="required"></textarea>
+                                            <textarea name="mensaje" id="message_modal1" class="input-md round form-control" style="height: 84px;" placeholder="Mensaje" required="required"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -134,19 +135,25 @@
     
                         </form>
                     </div>
+                    <div class="col-md-4">
+                        <div class="row wow slideInRight" data-wow-duration="700ms" data-wow-delay="300ms" style="margin-top: 4%;">
+                            <p style="color: #FFF; text-align:center;">
+                                <i class="fa fa-2x fa-home" style="color: #C00d18;"></i>&nbsp; Calle Martires agraristas No. 339
+                            </p>
+                        </div>
+                        <div class="row wow slideInRight" data-wow-duration="700ms" data-wow-delay="300ms" style="margin-top: 4%;">
+                            <p style="color: #FFF; text-align:center;">
+                                <i class="fa fa-2x fa-phone" style="color: #C00d18;"></i>&nbsp;Tel:&nbsp; <a href="tel:4 21 79 19">614 - 128 - 65 - 06</a>
+                            </p>
+                        </div>
+                        <div class="row wow slideInRight" data-wow-duration="700ms" data-wow-delay="300ms" style="margin-top: 4%;">
+                            <p style="color: #FFF; text-align:center;">
+                                <i class="fa fa-2x fa-envelope" style="color: #C00d18;"></i>&nbsp; <a style="color: #fff !important;" href="mailto:Contacto@solidemx.com">Contacto@solidemx.com</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <!-- End Contact Form -->
-                <div class="row wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms" style="margin-top: 4%;">
-                    <div class="col-md-4" style="color: #FFF; text-align:center;">
-                        <i class="fa fa-2x fa-home" style="color: #C00d18;"></i>&nbsp; Calle Martires agraristas No. 339
-                    </div>
-                    <div class="col-md-4" style="color: #FFF; text-align:center;">
-                        <i class="fa fa-2x fa-phone" style="color: #C00d18;"></i>&nbsp;<a href="tel:4 21 79 19">614 - 128 - 65 - 06</a>
-                    </div>
-                    <div class="col-md-4" style="color: #FFF; text-align:center;">
-                        <i class="fa fa-2x fa-envelope" style="color: #C00d18;"></i>&nbsp; <a style="color: #fff !important;" href="mailto:Contacto@solidemx.com">Contacto@solidemx.com</a>
-                    </div>
-                </div>
             </div>
         </section>
         <div class="google-map">
@@ -380,10 +387,9 @@
 
             $('#submit_CONTACTO').click(function () {
 
-                var name = $('#nombre').val();
-                var message = $('textarea#mensaje').val();
-                var email = $('#email').val();
-
+                var name = $('input[name="nombre"]').val();
+                var message = $('textarea[name="mensaje"]').val();
+                var email = $('input[name="email"]').val();
 
                 if (!name || !message || !email)
                     toastr.info('Existen campos vacios favor de llenarlos para continuar.');

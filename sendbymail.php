@@ -15,10 +15,11 @@ echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
 die();
 }
 
+
 $email_message = "Detalles del formulario de contacto:\n\n";
-$email_message .= "Nombre: " . $_POST['name'] . "\n"; //first_name
+$email_message .= "Nombre: " . $_POST['nombre'] . "\n"; //first_name
 $email_message .= "E-mail: " . $_POST['email'] . "\n";
-$email_message .= "Mensaje: " . $_POST['message'] . "\n\n";
+$email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";
 
 
 // Ahora se envía el e-mail usando la función mail() de PHP
