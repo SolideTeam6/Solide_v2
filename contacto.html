@@ -400,6 +400,9 @@
                         data: { nombre: name, mensaje: message, email: email },
                         success: function (data) {
                             toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+                            $('input[name="nombre"]').val('');
+                            $('textarea[name="mensaje"]').val('');
+                            $('input[name="email"]').val('');
                         }
                     });
                 }
