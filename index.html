@@ -1,1196 +1,869 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Solide MX » Home</title>
-    <meta name="theme-color" content="#000" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <meta name="description" content="Bienvenido a SolideMX líderes en desarrollo y soluciones tecnológicas." />
 
-	<meta property="og:title" content="Solide MX" />
-    <meta property="og:image" content="http://www.solidemx.com/site/images/share2.jpeg" />
-    <meta property="og:description" content="Bienvenido a Solide MX líderes en desarrollo y soluciones tecnológicas. #Branding #Telecomunicaciones #Automatizacion #Web #Apps " />
-    <meta property="og:url" content="http://www.solidemx.com">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#3ed2a7">
 
+	<link rel="shortcut icon" href="./assets/img/solide/icon.png" />
 
+	<title>Solide Mx | Versión 2020 </title>
 
-    <link rel="shortcut icon" href="images/logoSolide/icon.png">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/vertical-rhythm.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/toastr.css">
-    <link rel="stylesheet" href="css/client.css">
-    <link href="css/gsi-step-indicator.min.css" rel="stylesheet" />
-    <link href="css/tsf-step-form-wizard.min.css" rel="stylesheet" />
-    <link href="css/demo.min.css" rel="stylesheet" />
-    <link href="css/parsley/css/parsley.css" rel="stylesheet" />
-    <link href="css/toastr.css" rel="stylesheet" />
-    <link href="css/ProgressBarWars.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="SliderAssets/rs-plugin/css/settings.css" media="screen" />
-    <link rel="stylesheet" href="SliderAssets/stylesheets/featured.css">
-    <link rel="stylesheet" href="SliderAssets/stylesheets/umbg.css">
-    <link rel="stylesheet" href="SliderAssets/stylesheets/main2.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+	<link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+	<link rel="stylesheet" href="assets/css/theme.min.css" />
+	<link rel="stylesheet" href="assets/css/themes/creative.css" />
+
+	<!-- Head Libs -->
+	<script async src="assets/vendors/modernizr.min.js"></script>
+
+	<!-- Nova Tracking Code for http://www.solidemx.com/site/-->
+	<script>
+	(function(a,b,i,ai){
+		a.abby=a.abby||function(){(a.abby.buffer=a.abby.buffer||[]).push(arguments)};
+	a._abiSettings={apid:'so81',av:6};var z = b.createElement("script");z.async=1;
+		z.type="text/javascript";
+		z.src=i+a._abiSettings.apid+ai;
+		var y=b.getElementsByTagName("script")[0];
+		y.parentNode.insertBefore(z,y);
+	})(window, document, 'https://script.nova.page/userScripts/abi-', '.js');
+	</script>
+
 </head>
-<body class="appear-animate">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-105597924-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <div class="loaderWrap">
-        <div id='loader'>
-            <div class='diamond'></div>
-            <div class='diamond'></div>
-            <div class='diamond'></div>
-        </div>
-    </div>
-    <nav class="creativenav_3D" style="background: rgba(255, 255, 255, 0.70); width: 100%; z-index: 1295; position: fixed;">
-        <div class="nav-logo-wrap local-scroll" style="width: 215px;" id="contralogo">
-            <img src="images/logoSolide/contralogo_large_b12x3.png" id="contralogo_img" alt="" style="width: 100%;" />
-        </div>
-        <div class="mobile-nav">
-            <i style="color: #000;" class="fa fa-bars"></i>
-        </div>
-        <div class="inner-nav desktop-nav">
-            <ul id="ul-nav">
-                <li><a href="index.html"><span data-title="Home">Home</span></a></li>
-                <li><a href="portafolio.html"><span data-title="Portafolio">Portafolio</span></a></li>
-                <li><a href="about.html"><span data-title="Nosotros">Nosotros</span></a></li>
-                <li><a href="contacto.html"><span data-title="Contacto">Contacto</span></a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="page" id="top">
-        <section class="intro fullheight back-frame-wrap" style="cursor: default;" id="first_section">
-            <div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullscreen-container">
-                <div id="rev_slider_3_1" class="rev_slider fullscreenbanner">
-                    <ul>
-                        <li data-transition="boxfade" data-slotamount="7" data-masterspeed="1200" data-saveperformance="off">
-                            <img data-no-retina alt="" title="" src="SliderAssets/images/studio/04.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                            <div class="tp-caption fullscreen-intro-caption font2 lft ltb tp-resizeme" id="div_welcome"
-                                 data-x="center" data-hoffset="0"
-                                 data-y="center" data-voffset="-300"
-                                 data-speed="700"
-                                 data-start="600"
-                                 data-easing="easeInOutQuad"
-                                 data-splitin="none"
-                                 data-splitout="none"
-                                 data-elementdelay="0.1"
-                                 data-endelementdelay="0.1"
-                                 data-endspeed="800"
-                                 data-endeasing="easeInOutQuad">
-                                <span id="li_welcome" class="font2light dark-bg white" style="text-align: center; background: rgba(192, 13, 24, 0.619608);">BIENVENIDO A</span>
-                            </div>
-                            <div class="tp-caption fullscreen-intro-caption font2 lft ltb tp-resizeme" id="div_tittle"
-                                 data-x="center" data-hoffset="0"
-                                 data-y="center" data-voffset="-120"
-                                 data-speed="700"
-                                 data-start="900"
-                                 data-easing="easeInOutQuad"
-                                 data-splitin="none"
-                                 data-splitout="none"
-                                 data-elementdelay="0.1"
-                                 data-endelementdelay="0.1"
-                                 data-endspeed="800"
-                                 data-endeasing="easeInOutQuad">
-                                <img src="images/logoSolide/solideTitle.png" alt="" id="li_tittle" />
-                            </div>
-                            <div class="tp-caption sfr" id="div_cube"
-                                 data-x="center" data-hoffset="-400"
-                                 data-y="center" data-voffset="-120"
-                                 data-speed="700"
-                                 data-start="1200"
-                                 data-easing="Back.easeInOut"
-                                 data-splitin="none"
-                                 data-splitout="none"
-                                 data-elementdelay="0.1"
-                                 data-endelementdelay="0.1"
-                                 data-endspeed="700"
-                                 data-endeasing="Back.easeInOut">
-                                 <img src="images/logoSolide/cleancube.png" alt="" id="li_cube"/>
-                            </div>
-                            <div class="tp-caption sfl" id="div_medida"
-                                 data-x="center" data-hoffset="0"
-                                 data-y="center" data-voffset="100"
-                                 data-speed="700"
-                                 data-start="1500"
-                                 data-easing="Back.easeInOut"
-                                 data-splitin="none"
-                                 data-splitout="none"
-                                 data-elementdelay="0.1"
-                                 data-endelementdelay="0.1"
-                                 data-endspeed="700"
-                                 data-endeasing="Back.easeInOut">
-                                <span id="li_medida" class="font2light dark-bg white" style="text-align: center; background-color:transparent;">TECNOLOGÍA A TU MEDIDA</span>
-                            </div>
-                            <div class="tp-caption sfb" id="div_button"
-                                 data-x="center" data-hoffset="0"
-                                 data-y="bottom" data-voffset="100"
-                                 data-speed="700"
-                                 data-start="2000"
-                                 data-easing="Back.easeInOut"
-                                 data-splitin="none"
-                                 data-splitout="none"
-                                 data-elementdelay="0.1"
-                                 data-endelementdelay="0.1"
-                                 data-endspeed="700"
-                                 data-endeasing="Back.easeInOut">
-                                <a id="buton_header" href="portafolio.html" class="btn btn-mod btn-w btn-round" style="border-radius: 50px;">Ver proyectos</a>
-                            </div>
-                        </li>
-                        <!-- SLIDE  -->
-                        <li data-transition="cube" data-slotamount="7" data-masterspeed="1200" data-saveperformance="off" id="second_li">
-                            <img data-no-retina alt="" title="" src="SliderAssets/images/studio/02.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                            <div class="tp-caption fullscreen-intro-caption font2 lft ltb tp-resizeme"
-                                 data-x="center" data-hoffset="0"
-                                 data-y="center" data-voffset="0"
-                                 data-speed="600"
-                                 data-start="600"
-                                 data-easing="easeInOutQuad"
-                                 data-splitin="none"
-                                 data-splitout="none"
-                                 data-elementdelay="0.1"
-                                 data-endelementdelay="0.1"
-                                 data-endspeed="800"
-                                 data-endeasing="easeInOutQuad">
-                                <span class="font2light dark-bg white" style="text-align: center;">Desarrollo Web</span>&nbsp;<span style="text-align: center;" class="font2light dark-bg white ">Aplicaciones móviles</span> &nbsp;<span style="text-align: center;" class="font2light dark-bg white">Branding</span> &nbsp;<span style="text-align: center;" class="font2light dark-bg white">Telecomunicaciones</span>&nbsp;<span style="text-align: center;" class="font2light dark-bg white">Automatización</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="local-scroll wow bounceInUp" id="down_scroll" style="z-index: 12953; position: relative;">
-                <a href="#services" class="scroll-down"><i style="color: #c00d18; font-weight: 600; font-size: 36px;" class="fa fa-angle-down scroll-down-icon"></i></a>
-            </div>
-        </section>
-        <section>
-            <div class="row" id="row_carousel_principal">
-                <div class="col-md-12">
-                    <div class="item-carousel owl-carousel" id="carousel_principal">
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="images/logoSolide/yantra-b-10x10.png" class="image_clientes" alt="" />
-                            </div>
-                        </div>
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="images/logoSolide/sertei1.png" class="image_clientes" alt="" />
-                            </div>
-                        </div>
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="images/logoSolide/Gallegos.png" class="image_clientes" alt="" />
-                            </div>
-                        </div>
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="images/logoSolide/6.png" class="image_clientes" alt="" />
-                            </div>
-                        </div>
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="images/logoSolide/7.png" class="image_clientes" alt="" />
-                            </div>
-                        </div>
-                        <div class="features-item">
-                            <div class="features-icon">
-                                <img src="images/logoSolide/8.png" class="image_clientes" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section white-bg" style="z-index:2;" id="services">
-            <div class="container relative">
-                <h2 class="font-alt mb-30 mb-xxs-10 align-center" style="color: #C00D18;">
-                    Nuestros servicios
-                </h2>
-                <ul class="nav nav-tabs tpl-alt-tabs font-alt pt-sm-0 pb-30 pb-sm-0">
-                    <li class="active wow fadeInUp">
-                        <a href="" data-toggle="tab">
-                            <div class="alt-tabs-icon">
-                                <span class="icon-phone"></span>
-                            </div>
-                            Aplicaciones moviles
-                        </a>
-                    </li>
-                    <li class="active wow fadeInUp" data-wow-delay="0.1s">
-                        <a href="" data-toggle="tab">
-                            <div class="alt-tabs-icon">
-                                <span class="icon-presentation"></span>
-                            </div>
-                            Branding
-                        </a>
-                    </li>
-                    <li class="active wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="" data-toggle="tab">
-                            <div class="alt-tabs-icon">
-                                <span class="icon-tools-2"></span>
-                            </div>
-                            Automatización
-                        </a>
-                    </li>
-                    <li class="active wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="" data-toggle="tab">
-                            <div class="alt-tabs-icon">
-                                <span class="icon-desktop"></span>
-                            </div>
-                            Desarrollo web
-                        </a>
-                    </li>
-                    <li class="active wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="" data-toggle="tab">
-                            <div class="alt-tabs-icon">
-                                <span class="icon-tools"></span>
-                            </div>
-                            Diseño web
-                        </a>
-                    </li>
-                    <li class="active wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="" data-toggle="tab">
-                            <div class="alt-tabs-icon">
-                                <span class="icon-genius"></span>
-                            </div>
-                            Telecomunicaciones
-                        </a>
-                    </li>
-                </ul>
-                <div class="align-center">
-                    <a href="portafolio.html" style="color: #000; font-size: 16px; font-weight: 700;" class="section-more font-alt">Ver más sobre nuestros servicios <i class="fa fa-angle-right"></i></a>
-                </div>
-            </div>
-        </section>
-        <section class="page-section bg-dark" style="padding: 50px; z-index: 2;">
-            <div class="container relative">
-                <div class="row alt-features-grid">
-                    <div class="col-md-4 wow fadeInUp">
-                        <div class="alt-features-item align-center">
-                            <div class="alt-features-icon">
-                                <img src="images/dispositivos/disenio.png" class="img_dispositivos" alt="" />
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="font-size: 20px; font-weight: 700;">diseño innovador</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="alt-features-item align-center">
-                            <div class="alt-features-icon">
-                                <img src="images/dispositivos/24-7.png" class="img_dispositivos" alt="" />
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="font-size: 20px; font-weight: 700;">Soporte 24/7</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="alt-features-item align-center">
-                            <div class="alt-features-icon">
-                                <img src="images/dispositivos/dispositivos.png" class="img_dispositivos" alt="" />
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="font-size: 20px; font-weight: 700;">Diseño Responsivo</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section white-bg" style="padding: 40px; z-index: 2; background-image: url(images/process_bg.jpg); background-size: cover; background-position: center center;" id="section_elegir_solide">
-            <div class="container relative">
-                <h2 class="font-alt mb-30 mb-xxs-10 align-center" style="color: #fff;">
-                    ¿ Por qué elegir Solide ?
-                </h2>
-                <div class="row multi-columns-row alt-features-grid">
-                    <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp">
-                        <div class="alt-features-item align-center" id="h3_1" style="cursor: pointer;">
-                            <div class="alt-features-icon" style="color: #fff;">
-                                <span class="icon-trophy"></span>
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="color: #fff;">Somos eficientes</h3>
-                            <div class="alt-features-descr align-left wow zoomIn fadeOut" id="h3_1_description" style="color: #fff;">
-                                Quedate con la experiencia de obtener un trabajo que supere tus espectativas y que sobre todo eficientice tareas y/u objetivos específicos.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="alt-features-item align-center" id="h3_2" style="cursor: pointer;">
-                            <div class="alt-features-icon" style="color: #fff;">
-                                <span class="icon-calendar"></span>
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="color: #fff;">Somos puntuales</h3>
-                            <div class="alt-features-descr align-left wow zoomIn fadeOut" id="h3_2_description" style="color: #fff;">
-                                Contamos con un record de entrega de una semana antes de la fecha pactada en cada proyecto, para que cuentes con 7 días de prueba.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="alt-features-item align-center" id="h3_3" style="cursor: pointer;">
-                            <div class="alt-features-icon" style="color: #fff;">
-                                <span class="icon-happy"></span>
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="color: #fff;">Contamos con el mejor equipo</h3>
-                            <div class="alt-features-descr align-left wow zoomIn fadeOut" id="h3_3_description" style="color: #fff;">
-                                Deja que un equipo de ingenieros especializados en tecnologías específicas desarrollen una experiencia única para ti.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="alt-features-item align-center" id="h3_4" style="cursor: pointer;">
-                            <div class="alt-features-icon" style="color: #fff;">
-                                <span class="icon-flag"></span>
-                            </div>
-                            <h3 class="alt-features-title font-alt" style="color: #fff;">Trabajo garantizado</h3>
-                            <div class="alt-features-descr align-left wow zoomIn fadeOut" id="h3_4_description" style="color: #fff;">
-                                Cuando cuentas con un producto Solide puedes estar seguro de que has hecho la mejor elección ya que seguimos un programa establecido de aseguramiento de calidad y buenas prácticas.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section" style="background: #2C3E50; z-index: 2;">
-            <div class="container relative">
-                <div class="row">
-                    <div class="col-md-6 wow slideInLeft">
-                        <img src="images/logoSolide/s1.jpeg" alt="" />
-                    </div>
-                    <div class="col-md-6 wow slideInRight">
-                        <h3 style="text-align: center; margin-top: 5%; color: white;"> OBTEN UN SITIO WEB PROFESIONAL</h3>
-                        <hr style="border-top: 2px solid #f00;" />
-                        <p style="color: white; text-align: justify;">
-                            Proyecta tu negocio en Internet de una manera precisa, elegante e innovadora, con un diseño web atractivo logrando armonía con el más mínimo detalle. Que tu página web refleje todo lo tu empresa quiere proyectar y logra posicionarte de la mejor manera en la red.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 wow slideInLeft">
-                        <h3 style="text-align: center; margin-top: 8%; color: white;"> DESARROLLA TU IMÁGEN EMPRESARIAL</h3>
-                        <hr style="border-top: 2px solid #f00;" />
-                        <p style="color: white; text-align: justify;">
-                            LLa identidad es el arma más poderosa para diferenciarte de la competencia, de manera visual conviértete en un referente para el mercado creando una marca que deje huella.
-                        </p>
-                    </div>
-                    <div class="col-md-6 wow slideInRight">
-                        <img src="images/logoSolide/s2.jpeg" alt="" />
-                    </div>
-                    <!--</div>
-                    <div class="row">-->
-                    <div class="col-md-6 wow slideInLeft">
-                        <img src="images/logoSolide/s3.jpeg" alt="" />
-                    </div>
-                    <div class="col-md-6 wow slideInRight">
-                        <h3 style="text-align: center; margin-top: 8%; color: white;"> TU NEGOCIO EN EL BOLSILLO</h3>
-                        <hr style="border-top: 2px solid #f00;" />
-                        <p style="color: white; text-align: justify;">
-                            Movilidad, el concepto más importante hoy en día, asegura que tu negocio este en cualquier lugar al alcance de un Tap, crea y aprovecha oportunidades donde menos esperas y migra tu negocio de un escritorio a la palma de tu mano, y mantenlo disponible 24 horas los 365 días del año.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section white-bg" style="margin: 0; padding: 0; z-index: 2;" id="section_ultimos_proyectos">
-            <div class="container relative">
-                <h2 class="font-alt mb-30 mb-xxs-10 align-center" style="color: #C00D18;" id="h2_ultimos_proyectos">
-                    ÚLTIMOS PROYECTOS
-                </h2>
-            </div>
-            <div class="container relative wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms" style="width: 100%; margin: 0; padding: 0;">
-                <ul class="works-grid work-grid-3 clearfix font-alt hover-black hide-titles" id="work-grid">
-                    <li class="work-item mix photography">
-                        <a>
-                            <div class="work-img">
-                                <div id="triangulo_gallegos" style="display: none;" href="#lightSpeedIn_Gallegos" class="triangulo">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                </div>
-                                <a class="see-img work-lightbox-link mfp-image" href="images/logoSolide/CIDIEM1.jpg"><i class="fa fa-search"></i></a>
-                                <img src="images/logoSolide/CIDIEM1.jpg" alt="Work" style="width: 100%;" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Web, Branding, Logo, Fotografía</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="work-item mix photography">
-                        <a>
-                            <div class="work-img">
-                                <div class="triangulo" style="display: none;">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                </div>
-                                <a class="see-img work-lightbox-link mfp-image" href="images/logoSolide/DIE_BLUME_1.jpg"><i class="fa fa-search"></i></a>
-                                <img src="images/logoSolide/DIE_BLUME_1.jpg" alt="Work" style="width: 100%;" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Web, Branding, Logo</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="work-item mix photography">
-                        <a>
-                            <div class="work-img">
-                                <div class="triangulo" style="display: none;">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                </div>
-                                <a class="see-img work-lightbox-link mfp-image" href="images/logoSolide/GC.jpg"><i class="fa fa-search"></i></a>
-                                <img src="images/logoSolide/GC.jpg" alt="Work" style="width: 100%;" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Web, Fotografía, Branding, Logo</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="work-item mix branding">
-                        <a>
-                            <div class="work-img">
-                                <div class="triangulo" style="display: none;">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                </div>
-                                <a class="see-img work-lightbox-link mfp-image" href="images/logoSolide/CUU HIDRO FORESTAL.jpg"><i class="fa fa-search"></i></a>
-                                <img class="work-img" src="images/logoSolide/CUU HIDRO FORESTAL.jpg" alt="Work" style="width: 100%;"  />
-                            </div>
-                            <div class="work-intro">
-                                <h3 id="ddd" class="work-title">Web, Branding, Logo, Fotografía, Social Media</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="work-item mix branding">
-                        <a>
-                            <div class="work-img">
-                                <div class="triangulo" style="display: none;">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                </div>
-                                <a class="see-img work-lightbox-link mfp-image" href="images/logoSolide/SERTEI.jpg" ><i class="fa fa-search"></i></a>
-                                <img class="work-img" src="images/logoSolide/SERTEI.jpg" alt="Work" style="width: 100%;" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Web</h3>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="work-item mix photography">
-                        <a>
-                            <div class="work-img">
-                                <div class="triangulo" style="display: none;">
-                                    <div class="line1"></div>
-                                    <div class="line2"></div>
-                                </div>
-                                <a class="see-img work-lightbox-link mfp-image" href="images/logoSolide/TORY.jpg"><i class="fa fa-search"></i></a>
-                                <img src="images/logoSolide/TORY.jpg" alt="Work" style="width: 100%;"  />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">App, Fotografía, Web, Branding, Logo</h3>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="small-section bg-dark" style="z-index: 2;" id="section_algun_proyecto">
-            <div class="container relative">
-                <h3 class="font-alt mb-30 mb-xxs-10 align-center">
-                    ¿ Tienes algun proyecto que te gustaría desarrollar ?
-                </h3>
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-lg-offset-4 pb-xs-0 align-center wow zoomIn" data-wow-duration="400ms" id="div_idea">
-                        <a href="#animatedModal" class="btn btn-mod btn-w btn-medium btn-round" id="platicanos">Platicanos tu idea y la <br />hacemos realidad</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="phone-preview">
-            <div class="phone-preview__chevron-container">
-                <i class="phone-preview__chevron fa fa-chevron-down blink_me"></i>
-            </div>
-            <img class="phone-preview__phone"><i class="phone-preview__music-display fa fa-music"></i><i class="phone-preview__soundcloud fa fa-star"></i>
-        </div>
-    </div>
-    <footer class="page-section bg-gray-lighter footer" style="padding: 10px 10px 0px 10px; background: #202121; z-index: 2;">
-        <div class="row">
-            <div class="col-md-2 wow fadeInUp" data-wow-delay="0.2s" style="margin-top: 1.6%;">
-                <a href="http://www.facebook.com/solidemx" target="_blank"><i class="fa fa-facebook-square" style="color: #3b5998; font-size: 30px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="" target="_blank"><i class="fa fa-twitter-square" style="color: #1da1f2; font-size: 30px;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="" target="_blank"><i class="fa fa-linkedin-square" style="color: #0077b5; font-size: 30px;"></i></a>
-            </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s" style="margin-top: 2%;">
-                <div class="footer-text">
-                    <div id="footer_copy" class="footer-copy font-alt" style="font-size: 13px;">
-                        <i class="fa fa-suitcase" style="color: #888;"></i> <a id="demo02" href="#lightSpeedIn">Misión y visión</a>
-                        &nbsp;&nbsp;<i class="fa fa-bank" style="color: #888;"></i><a id="demo03" href="#lightSpeedIn">Políticas</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 local-scroll wow fadeInUp" data-wow-delay="0.6s">
-                <div class="alt-features-icon">
-                    <a href="#top"><img id="logo_footer" src="images/logoSolide/logo_opacity.png" alt="" /></a>
-                </div>
-            </div>
-            <div class="col-md-3 wow fadeInUp" id="mx_footer" data-wow-delay="0.8s">
-                <div class="footer-text" style="margin-top:7.6%;">
-                    <div class="footer-copy font-alt">
-                        <a href="#top" target="_blank">&copy; Solide MX 2016</a>.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="height: 40px; background: #000;">
-            <div class="col-md-2 local-scroll wow fadeInUp" data-wow-delay="0.72s" style="margin-top: .6%; color: #fff;" id="whitesolide">
-                <img id="logo_footer" src="images/logoSolide/whitesolide.png" alt="" style="width: 64%; margin-top: -4.6%;" />
-            </div>
-            <div class="col-md-2 col-md-offset-7 local-scroll wow fadeInUp" id="made_footer" data-wow-delay="0.6s" style="margin-top: .72%; color: #fff;">
-                Made with <i class="fa fa-heart" style="color: #C00D18;"></i> for great people.
-            </div>
-        </div>
-        <div class="local-scroll">
-            <a href="#top" class="link-to-top"><i class="fa fa-caret-up" style="color: #C00d18;"></i></a>
-        </div>
-    </footer>
-    <div id="lightSpeedIn" style="background-color: #c00d18;">
-        <div id="closebt-container" class="close-lightSpeedIn">
-            <img class="closebt" src="images/closebt.svg">
-        </div>
-        <div id="modal-container" class="col-sm-10 col-md-10 col-lg-10 col-lg-offset-1" style="font-family: Dosis, arial, sans-serif;">
-            <div class="thumb col-lg-4" style="display:none; text-align: center; margin-top: 2%;">
-                <img src="images/briefcase.svg" style="width: 31%;">
-                <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE;"> Misión </h3>
-                <p style="text-align: justify; color: #fff; TEXT-TRANSFORM: UPPERCASE;">
-                    Desarrollo e implementación de tecnologías de información y servicios de software a la medida que brinden a nuestros clientes innovación, valor, funcionalidad y posicionamiento.
-                    Apoyándolos en mejora de procesos y digitalización de los mismos, utilizando como herramienta tecnologías actuales, siguiendo metodologías y técnicas de desarrollo validadas mundialmente.
-                    Somos un equipo comprometido con la satisfacción y la generación de confianza con el cliente, para hacer de nuestras soluciones un apoyo para su cumplimiento de objetivos a corto, mediano y largo plazo.
-                </p>
-            </div>
-            <div class="thumb col-lg-4" style="display:none; text-align: center;">
-                <img src="images/glasses_.svg" style="width: 50%;">
-                <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE; margin-top: -6%"> Visión </h3>
-                <p style="text-align: justify; color: #fff; TEXT-TRANSFORM: UPPERCASE;">
-                    Ser líderes tecnológicos y pioneros en el norte del país en el desarrollo de aplicaciones a medida, así como aliados tecnológicos y proveedores de las marcas más importantes del mercado, posicionarnos como referencia nacional en desarrollo de soluciones de escritorio, web o móviles que se ajusten a las necesidades específicas de nuestros clientes siguiendo una metodología de análisis de requerimientos, diseño, desarrollo, pruebas, implementación y mantenimiento periódico Soluciones de productividad.
-                    Convertirnos en un Aliado de estratégico para proyectos tecnológicos en desarrollo de software, implementación de proyectos, automatización y branding, tomando como pilares de las soluciones, el profesionalismo, compromiso, confianza y Calidad.
-                </p>
-            </div>
-            <div class="thumb col-lg-4" style="display:none; text-align: center; margin-top: 1.2%;">
-                <img src="images/elections-badge-with-a-star.svg" style="width: 34%;">
-                <h3 style="text-align: center; color: white; TEXT-TRANSFORM: UPPERCASE;"> Políticas </h3>
-                <p style="text-align: justify; color: #fff; TEXT-TRANSFORM: UPPERCASE;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum gravida mauris, a tincidunt dolor porttitor eu.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!--DEMO02    style="background-image: url(images/logoSolide/solide_background4.jpg);" data-backdrop="static" data-keyboard="false"-->
-    <div id="animatedModal">
-        <div id="closebt-container" class="close-animatedModal">
-            <img class="closebt" src="images/closebt.svg">
-        </div>
-
-        <div class="modal-content">
-            <div class="demo-settings" data-open="true" style="display: none;">
-                <div class="settings-icon">
-                    <a href="#" class="btn-setting"><i class="fa fa-2x fa-cogs"></i></a>
-                    <a href="#" class="btn-remove"><i class="fa fa-2x fa-times"></i></a>
-                </div>
-                <div class="settings-main">
-                    <label>Step effect</label>
-                    <select class="form-control" id="stepEffect">
-                        <option value="basic" selected="selected">basic</option>
-                        <option value="bounce">bounce</option>
-                        <option value="slideRightLeft">slideRightLeft</option>
-                        <option value="slideLeftRight">slideLeftRight</option>
-                        <option value="flip">flip</option>
-                        <option value="transformation">transformation</option>
-                        <option value="slideDownUp">slideDownUp</option>
-                        <option value="slideUpDown">slideUpDown</option>
-                    </select>
-                    <br />
-                    <label for="stepTransition">
-                        Step transition <input type="checkbox" id="stepTransition" name="stepTransition" value="11" checked />
-                    </label>
-                    <br />
-                    <label for="showButtons">
-                        Show buttons <input type="checkbox" id="showButtons" name="showButtons" value="111" checked />
-                    </label>
-                    <br />
-                    <label for="showStepNum">
-                        Show stepNum <input type="checkbox" id="showStepNum" name="showStepNum" value="123" checked />
-                    </label>
-
-
-                </div>
-            </div>
-            <div class="row col-md-12" style="padding: 2% 5% 2% 5%;">
-                <div class="tsf-wizard tsf-wizard-1">
-                    <div class="tsf-nav-step">
-                        <ul class="gsi-step-indicator triangle gsi-style-1  gsi-transition" style="padding-left: 4%;">
-                            <li class="current" data-target="step-1" style="width: 48%;">
-                                <a id="step1" href="#">
-                                    <span class="number">1</span>
-                                    <span class="desc">
-                                        <label>Envianos tu mensaje</label>
-                                        <span>Siempre disponibles para trabajar contigo </span>
-                                    </span>
-                                </a>
-                            </li>
-                            <li data-target="step-2" style="width: 48%;">
-                                <a id="step2" href="#">
-                                    <span class="number">
-                                        2
-                                    </span>
-                                    <span class="desc">
-                                        <label>¿ Tiene algún proyecto que te gustaría trabajar ?</label>
-                                        <span>Mandanos tu propuesta y la atendemos de inmediato</span>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div id="vader" style="width: 96%; padding-left: 4%;"></div>
-                    </div>
-                    <div class="tsf-container">
-                        <div class="tsf-content" style="border: none;">
-                            <div class="tsf-step step-1 active">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-md-10 col-md-offset-1">
-                                            <form class="form" id="form-mensaje">
-                                                <div class="clearfix">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="form-group">
-                                                                <input type="text" name="name" id="name_modal" class="input-md round form-control" placeholder="Nombre">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="form-group">
-                                                                <input type="email" name="email" id="email_modal" class="input-md round form-control" placeholder="Email">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="form-group">
-                                                                <textarea name="message" id="message_modal" class="input-md round form-control" style="height: 84px;" placeholder="Mensaje"></textarea>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="align-center pt-10">
-                                                                <button style="width: 100%;" class="btn btn-mod btn-w btn-medium btn-round" id="submit_modal_envio">Enviar mensaje</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </div>
-                            <div class="tsf-step step-2">
-                                <fieldset>
-                                    <form class="tsf-step-content">
-                                        <div class="row">
-                                            <div class="col-md-10 col-md-offset-1">
-                                                <div class="form" id="contact_form">
-                                                    <div class="clearfix">
-                                                        <div class="row">
-                                                            <div class="col-md-4">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="project_name_modal" class="input-md round form-control" placeholder="Nombre del proyecto" required="required">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="type_modal" class="input-md round form-control" placeholder="Tipo de proyecto" required="required">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="budget_modal" class="input-md round form-control" placeholder="Presupuesto" required="required">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <textarea id="message_modal1" class="input-md round form-control" style="height: 84px;" placeholder="Descripción" required="required"></textarea>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <textarea id="target_modal" class="input-md round form-control" style="height: 84px;" placeholder="Objetivo" required="required"></textarea>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-4">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="company_modal" class="input-md round form-control" placeholder="Compañia" pattern=".{3,100}" required="required">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="contact_modal" class="input-md round form-control" placeholder="Contacto" pattern=".{5,100}" required="required">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-4">
-                                                                <div class="form-group">
-                                                                    <input type="text" id="phone_modal" class="input-md round form-control" placeholder="Teléfono" pattern=".{5,100}" required="required">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="align-center pt-10">
-                                                                    <button type="button" style="width: 100%;" class="btn btn-mod btn-w btn-medium btn-round" id="submit_btn_t">Trabaja con nosotros</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div id="result"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </fieldset>
-                            </div>
-                        </div>
-                        <div class="tsf-controls">
-                            <button type="button" data-type="prev" class="btn btn-left tsf-wizard-btn" id="anterior">
-                                <i class="fa fa-chevron-left"></i> ANTERIOR
-                            </button>
-                            <button type="button" data-type="next" id="siguiente" class="btn btn-right tsf-wizard-btn">
-                                SIGUIENTE <i class="fa fa-chevron-right"></i>
-                            </button>
-                            <button type="button" id="Guardar_Modal" data-type="finish" class="btn btn-right tsf-wizard-btn close-animatedModal">
-                                CONTINUAR
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
-    <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
-    <script type="text/javascript" src="js/jquery.appear.js"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg"></script>
-    <script type="text/javascript" src="js/gmap3.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
-    <script type="text/javascript" src="js/all.js"></script>
-    <script type="text/javascript" src="js/animatedModal.min.js"></script>
-    <script type="text/javascript" src="js/contact-form.js"></script>
-    <script type="text/javascript" src="js/jquery.ajaxchimp.min.js"></script>
-    <script type="text/javascript" src="js/plugins.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/demo.js"></script>
-    <script type="text/javascript" src="css/parsley/js/parsley.min.js"></script>
-    <script type="text/javascript" src="js/tsf-wizard-plugin.js"></script>
-    <script type="text/javascript" src="js/ProgressBarWars.js"></script>
-    <script type="text/javascript" src="js/toastr.js"></script>
-
-
-    <script type="text/javascript" src="SliderAssets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="SliderAssets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-
-    <script>
-
-        $(function () {
-            pageLoadScript();
-        });
-
-        //submit_modal_envio
-        function pageLoadScript() {
-
-            _stepEffect = $('#stepEffect').val();
-            _style = 'style2';
-            _stepTransition = $('#stepTransition').is(':checked');
-            _showButtons = $('#showButtons').is(':checked');
-            _showStepNum = $('#showStepNum').is(':checked');
-
-
-
-            $('.tsf-wizard-1').tsfWizard({
-                stepEffect: _stepEffect,
-                stepStyle: _style,
-                navPosition: 'top',
-                stepTransition: _stepTransition,
-                showButtons: _showButtons,
-                showStepNum: _showStepNum,
-                height: 'auto'
-            });
-
-        }
-
-        wow = new WOW(
-                          {
-                              boxClass: 'wow',      // default
-                              animateClass: 'animated', // default
-                              offset: 0,          // default
-                              mobile: true,       // default
-                              live: true        // default
-                          }
-                        )
-        wow.init();
-
-
-        $(window).load(function () {
-            if ($(".loaderWrap").length > 0) {
-                $(".loaderWrap").delay(500).fadeOut("slow");
-            }
-        });
-
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-33013198-9', 'auto');
-        ga('send', 'pageview');
-
-        window.onload = function () {
-            $("#h3_1_description").hide();
-            $("#h3_2_description").hide();
-            $("#h3_3_description").hide();
-            $("#h3_4_description").hide();
-
-            $("#anterior").html('Anterior');
-            $("#siguiente").html('Siguiente');
-            $("#Guardar_Modal").html('Salir');
-        }
-
-        function existeUrl(url) {
-            var http = new XMLHttpRequest();
-            http.open('HEAD', url, false);
-            http.send();
-            return http.status != 404;
-        }
-
-        $(document).ready(function () {
-
-            jQuery('#rev_slider_3_1').show().revolution(
-              {
-
-                  dottedOverlay: "none",
-                  delay: 9000,
-                  startwidth: 1200,
-                  startheight: 500,
-                  hideThumbs: 0,
-
-                  thumbWidth: 100,
-                  thumbHeight: 50,
-                  thumbAmount: 3,
-
-
-                  simplifyAll: "off",
-
-                  navigationType: "bullet",
-                  navigationArrows: "none",
-                  navigationStyle: "round",
-
-                  touchenabled: "on",
-                  onHoverStop: "off",
-                  nextSlideOnWindowFocus: "off",
-
-                  swipe_threshold: 75,
-                  swipe_min_touches: 1,
-
-                  /*
-
-             keyboardNavigation:"off",
- */
-                  navigationHAlign: "left",
-                  navigationVAlign: "center",
-                  navigationHOffset: 20,
-                  navigationVOffset: 0,
-                  /*
-                              soloArrowLeftHalign:"left",
-                              soloArrowLeftValign:"center",
-                              soloArrowLeftHOffset:20,
-                              soloArrowLeftVOffset:0,
-
-                              soloArrowRightHalign:"right",
-                              soloArrowRightValign:"center",
-                              soloArrowRightHOffset:20,
-                              soloArrowRightVOffset:0,*/
-
-                  shadow: 0,
-                  fullWidth: "off",
-                  fullScreen: "on",
-
-                  spinner: "spinner0",
-
-                  stopLoop: "off",
-                  stopAfterLoops: -1,
-                  stopAtSlide: -1,
-
-                  shuffle: "off",
-
-
-                  forceFullWidth: "off",
-                  fullScreenAlignForce: "off",
-                  minFullScreenHeight: "",
-                  hideTimerBar: "on",
-                  hideThumbsOnMobile: "off",
-                  hideNavDelayOnMobile: 1500,
-                  hideBulletsOnMobile: "on",
-                  hideArrowsOnMobile: "off",
-                  hideThumbsUnderResolution: 0,
-
-                  fullScreenOffsetContainer: "#pseudo-header",
-                  fullScreenOffset: "",
-                  hideSliderAtLimit: 0,
-                  hideCaptionAtLimit: 0,
-                  hideAllCaptionAtLilmit: 0,
-                  startWithSlide: 0
-              });
-
-            toastr.options = {
-                "closeButton": false,
-                "debug": false,
-                "newestOnTop": false,
-                "progressBar": false,
-                "positionClass": "toast-top-center",
-                "preventDuplicates": false,
-                "showDuration": "1000",
-                "hideDuration": "10000",
-                "timeOut": "10000",
-                "extendedTimeOut": "10000",
-                "showEasing": "swing",
-                "hideEasing": "linear",
-                "showMethod": "fadeIn",
-                "hideMethod": "fadeOut"
-            }
-
-            /*    $("#anterior").click(function() {
-
-                });
-      */
-
-            $('#submit_btn_t').click(function (event) {
-
-                var project_name_modal = $('#project_name_modal').val();
-                var type_modal = $('#type_modal').val();
-                var budget_modal = $('#budget_modal').val();
-                var message_modal1 = $('#message_modal1').val();
-                var target_modal = $('#target_modal').val();
-                var contact_modal = $('#contact_modal').val();
-                var company_modal = $('#company_modal').val();
-                var phone_modal = $('#phone_modal').val();
-
-                if (!project_name_modal || !type_modal || !budget_modal || !message_modal1 || !target_modal || !company_modal || !contact_modal || !phone_modal)
-                    toastr.info('Existen campos vacios favor de llenarlos para continuar.');
-                else {
-                    $.post("Code/message.php", {
-                        project_name_modal: project_name_modal, type_modal: type_modal, budget_modal: budget_modal,
-                        message_modal1: message_modal1, target_modal: target_modal, contact_modal: contact_modal,
-                        company_modal: company_modal, phone_modal: phone_modal
-                    })
-                        .done(function (data) {
-                            toastr.success('Propuesta enviada con éxito en un momento te atenderemos.');
-                            $('#project_name_modal').val('');
-                            $('#type_modal').val('');
-                            $('#budget_modal').val('');
-                            $('#message_modal1').val('');
-                            $('#target_modal').val('');
-                            $('#contact_modal').val('');
-                            $('#company_modal').val('');
-                            $('#phone_modal').val('');
-                        })
-                      .fail(function (data) {
-                          toastr.warning('Ocurrio un error favor de intentarlo de nuevo.');
-                      });
-                }
-                event.preventDefault();
-            });
-
-            $('#submit_modal_envio').click(function (event) {
-                var filename = $('#email_modal').val() + "_datos.txt";
-                if (existeUrl("Code/" + filename)) {
-                    filename = "_" + filename;
-                }
-                var name = $('#name_modal').val();
-                var message = $('#message_modal').val();
-                var email = $('#email_modal').val();
-
-                var parametros = {
-                    "name": name,
-                    "message": message,
-                    "email": email,
-                    "filename": filename
-                };
-
-                if (!name || !message || !email) {
-                    toastr.info('Existen campos vacios favor de llenarlos para continuar.');
-                }
-                else {
-                    $.ajax({
-                        type: "POST",
-                        url: "Code/file.php",
-                        data: parametros,
-                        success: function (data) {
-                            $('#name_modal').val('');
-                            $('#message_modal').val('');
-                            $('#email_modal').val('');
-                            toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
-                        }
-                    });
-                }
-                event.preventDefault();
-            });
-
-            var vd = $("#vader").ProgressBarWars({ porcentaje: 50, estilo: "vader" });
-
-            $("#step1").click(function () {
-                vd.mover(50);
-            });
-
-            $("#step2").click(function () {
-                vd.mover(100);
-            });
-
-            $("#siguiente").click(function () {
-                vd.mover(100);
-            });
-
-            $("#anterior").click(function () {
-                vd.mover(50);
-            });
-
-            $("#h3_1").click(function () {
-                var description = $("#h3_1_description");
-                if (description.is(":visible"))
-                    description.hide();
-                else
-                    description.show();
-            });
-
-            $("#h3_2").click(function () {
-                var description = $("#h3_2_description");
-                if (description.is(":visible"))
-                    description.hide();
-                else
-                    description.show();
-            });
-
-            $("#h3_3").click(function () {
-                var description = $("#h3_3_description");
-                if (description.is(":visible"))
-                    description.hide();
-                else
-                    description.show();
-            });
-
-            $("#h3_4").click(function () {
-                var description = $("#h3_4_description");
-                if (description.is(":visible"))
-                    description.hide();
-                else
-                    description.show();
-            });
-
-            $("#contactanos").animatedModal({
-
-                color: '#2C3E50'
-            });
-
-            $("#demo03").animatedModal({
-                modalTarget: 'lightSpeedIn',
-                animatedIn: 'lightSpeedIn',
-                animatedOut: 'bounceOutDown',
-                color: '#C00d18',
-                beforeOpen: function () {
-
-                    var children = $(".thumb");
-                    var index = 0;
-
-                    function addClassNextChild() {
-                        if (index == children.length) return;
-                        children.eq(index++).show().velocity("transition.slideRightIn", { opacity: 1, stagger: 450, defaultDuration: 100 });
-                        window.setTimeout(addClassNextChild, 100);
-                    }
-                    addClassNextChild();
-                },
-                afterClose: function () {
-                    $(".thumb").hide();
-                }
-            });
-
-            $("#demo02").animatedModal({
-                modalTarget: 'lightSpeedIn',
-                animatedIn: 'lightSpeedIn',
-                animatedOut: 'bounceOutDown',
-                color: '#C00d18',
-                beforeOpen: function () {
-
-                    var children = $(".thumb");
-                    var index = 0;
-
-                    function addClassNextChild() {
-                        if (index == children.length) return;
-                        children.eq(index++).show().velocity("transition.slideRightIn", { opacity: 1, stagger: 450, defaultDuration: 100 });
-                        window.setTimeout(addClassNextChild, 100);
-                    }
-                    addClassNextChild();
-                },
-                afterClose: function () {
-                    $(".thumb").hide();
-                }
-            });
-
-            $("#platicanos").animatedModal({
-                modalTarget: 'animatedModal',
-                animatedIn: 'lightSpeedIn',
-                animatedOut: 'bounceOutDown',
-                color: '#2C3E50',
-                beforeOpen: function () {
-
-                    var children = $(".thumb");
-                    var index = 0;
-
-                    function addClassNextChild() {
-                        if (index == children.length) return;
-                        children.eq(index++).show().velocity("transition.slideRightIn", { opacity: 1, stagger: 450, defaultDuration: 100 });
-                        window.setTimeout(addClassNextChild, 100);
-                    }
-                    addClassNextChild();
-                },
-                afterClose: function () {
-                    $(".thumb").hide();
-                }
-            });
-
-        });
-
-
-    </script>
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="modern" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+
+	<div id="wrap">
+
+		<header class="main-header main-header-overlay" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
+
+			<div class="mainbar-wrap">
+				<div class="megamenu-hover-bg"></div><!-- /.megamenu-hover-bg -->
+				<div class="container-fluid mainbar-container">
+					<div class="mainbar">
+						<div class="row mainbar-row align-items-lg-stretch px-4">
+
+							<div class="col-auto pr-5">
+								<div class="navbar-header">
+									<a class="navbar-brand" href="index-creative.html" rel="home">
+										<span class="navbar-brand-inner">
+											<img class="logo-dark" src="./assets/img/solide/contralogo_xs.png" alt="Logo SolideMx">
+											<img class="logo-sticky" src="./assets/img/solide/contralogo_xs.png" alt="Logo SolideMx">
+											<img class="mobile-logo-default" src="./assets/img/solide/contralogo_xs.png" alt="Logo SolideMx">
+											<img class="logo-default" src="./assets/img/solide/contralogo_xs.png" alt="Logo SolideMx">
+										</span>
+									</a>
+									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
+										<span class="sr-only">Toggle navigation</span>
+										<span class="bars">
+											<span class="bar"></span>
+											<span class="bar"></span>
+											<span class="bar"></span>
+										</span>
+									</button>
+								</div><!-- /.navbar-header -->
+							</div><!-- /.col -->
+
+							<div class="col">
+
+								<div class="collapse navbar-collapse" id="main-header-collapse">
+
+									<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-start" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
+
+										<li>
+											<a href="#content">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Inicio</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#works">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Trabajos</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#services">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Servicios</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#about">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Nosotros</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#testimonials">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Testimonios</span>
+												</span>
+											</a>
+										</li>
+
+								</ul><!-- /#primary-nav  -->
+
+							</div><!-- /#main-header-collapse -->
+
+						</div><!-- /.col -->
+
+						<div class="col text-right">
+
+							<div class="header-module">
+
+								<a href="https://api.whatsapp.com/send?phone=526141763011&amp;text=Contacto%desde%solidemx.com" target="_blank" class="btn btn-default text-uppercase circle btn-bordered border-thick font-size-12 font-weight-semibold btn-white">
+									<span>
+										<span class="btn-txt">Contacto</span>
+									</span>
+								</a>
+
+							</div><!-- /.header-module -->
+
+						</div><!-- /.col -->
+
+					</div><!-- /.mainbar-row -->
+				</div><!-- /.mainbar -->
+			</div><!-- /.mainbar-container -->
+		</div><!-- /.mainbar-wrap -->
+
+	</header><!-- /.main-header -->
+
+	<main id="content" class="content">
+
+		<section class="vc_row fullheight d-flex flex-wrap align-items-center pb-50">
+
+			<div class="lqd-particles-bg-wrap">
+
+				<div class="ld-particles-container">
+					<div
+						class="ld-particles-inner"
+						id="ld-1527244273759-519b63e0-a9d6"
+						data-particles="true"
+						data-particles-options='{"particles":{"number":{"value":5,"density":2},"color":{"value":["#f9b851","#60eacb","#ff97af","#4e6bff"]},"shape":{"type":["circle","edge","triangle"]},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":40,"speed":5}},"move":{"enable":true,"direction":"right","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'>
+					</div>
+				</div>
+
+			</div><!-- /.lqd-particles-bg-wrap -->
+
+			<div class="container">
+				<div class="row d-flex flex-wrap align-items-center">
+
+					<div class="lqd-column col-lg-5 col-md-6 lqd-column" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":51,"opacity":0},"animations":{"translateY":0,"opacity":1}}' >
+
+						<div class="ld-fancy-heading mask-text">
+							<h1
+								data-split-text="true"
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
+								data-split-options='{"type":"lines"}'
+							>
+								<span class="ld-fh-txt"> Tecnológia a tu medida</span>
+							</h1>
+						</div><!-- /.ld-fancy-heading -->
+
+						<div class="ld-fancy-heading mask-text mb-75">
+							<p
+								data-split-text="true"
+								data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
+								data-split-options='{"type":"lines"}'>
+								<span class="ld-fh-txt"> Creamos paginas web, aplicaciones moviles y las experiencias que tu empresa necesita para conectar con tus clientes.</span>
+							</p>
+						</div><!-- /.ld-fancy-heading -->
+
+						<div class="row">
+
+							<div class="lqd-column col-sm-6 mb-3 mb-md-0">
+
+								<a href="https://api.whatsapp.com/send?phone=526141763011&amp;text=Contacto%desde%solidemx.com" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+									<span>
+										<span class="btn-txt">Iniciar proyecto</span>
+									</span>
+								</a>
+
+							</div><!-- /.col-sm-6 -->
+
+							<div class="lqd-column col-sm-6">
+
+								<div class="ld-fancy-heading">
+									<p>
+										<span class="ld-fh-txt">
+											<strong><span style="color: #fe688b">llamanos (614) 176-30-11</span></strong>
+											<br>
+											<span style="color: #a7a9b8">todo puede iniciar con una llamada</span>
+										</span>
+									</p>
+								</div>
+
+							</div><!-- /.col-sm-6 -->
+
+						</div><!-- /.row -->
+
+					</div><!-- /.col-lg-5 col-md-6 -->
+
+					<div class="lqd-column col-lg-7 col-md-6 hidden-xs hidden-sm hidden-md">
+
+						<div class="ld-masked-image" data-dynamic-shape="true">
+							<svg version="1.1" class="scene" width="0" height="0" preserveAspectRatio="none" viewBox="0 0 1440 800">
+								<defs>
+									<clipPath id="masked-image-1">
+										<path
+											fill="black"
+											d="M131,40 C84.135,83.534 96.819,148.446 63.283,217.394 C31.508,282.723 -3.621,324.812 1.461,394.323 C3.451,421.533 12.117,449.828 29.796,480.002 C87.412,578.34 -15.301,663.448 94.611,833.387 C156.302,928.77 316.559,918.015 435.971,936.052 C572.741,956.711 653.384,1003.601 753.566,971.715 C877.689,932.209 924.99262,809.932822 972.63862,707.700822 C1063.84662,512.000822 1038.71071,197.732895 884.476705,67.2268952 C788.919705,-13.6291048 714.704,70.008 529,43 C339.693,15.468 212.609,-35.808 131,40 Z"
+											pathdata:id="
+											M175.270836,26.7977911 C128.405836,70.3317911 129.938279,144.739124 96.4022789,213.687124 C64.6272789,279.016124 41.242383,286.071679 46.324383,355.582679 C48.314383,382.792679 79.5246278,459.251586 88.7738696,492.334164 C116.497714,591.496483 -75.3047466,680.552915 34.6072534,850.491915 C96.2982534,945.874915 281.559,906.015 400.971,924.052 C537.741,944.711 678.161685,902.348368 778.343685,870.462368 C902.466685,830.956368 927.354,806.232 975,704 C1066.208,508.3 1058.68971,185.848951 904.455709,55.3429506 C808.898709,-25.5130494 786.027661,117.60054 600.323661,90.5925401 C411.016661,63.0605401 256.879836,-49.0102089 175.270836,26.7977911 Z;
+											M200.391256,6 C138.06059,22.7990703 77.9622177,42.6445401 44.4262177,111.59254 C12.6512177,176.92154 -4.1051307,212.01786 0.976869296,281.52886 C2.9668693,308.73886 99.0297526,534.545109 108.278994,567.627688 C136.002839,666.790006 -29.1381304,721.523368 80.7738696,891.462368 C142.46487,986.845368 331.636556,840.153183 451.048556,858.190183 C587.818556,878.849183 705.371102,948.496676 805.553102,916.610676 C929.676102,877.104676 941.497784,689.3436 989.143784,587.1116 C1080.35178,391.4116 1050.68971,206.848951 896.455709,76.3429506 C800.898709,-4.5130494 778.027661,138.60054 592.323661,111.59254 C403.016661,84.0605401 312.765712,-24.2866392 200.391256,6 Z"
+										/>
+									</clipPath>
+								</defs>
+							</svg>
+							<figure class="clip-svg" data-responsive-bg="true" style="clip-path: url(#masked-image-1); -webkit-clip-path: url(#masked-image-1);">
+								<!-- <img src="./assets/demo/misc/masked-img-1.jpg" alt="Image"> -->
+								<img src="./assets/img/solide/back-top-wip.png" alt="Image">
+							</figure>
+						</div><!-- /ld-masked-image -->
+
+					</div><!-- /.col-lg-7 col-md-6 -->
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+
+		<section class="vc_row pt-80 pb-120">
+			<div class="container">
+				<div class="row">
+
+					<div class="lqd-column col-lg-6">
+
+						<header class="fancy-title" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-32,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
+
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">¿Como te podemos ayudar?</h6>
+							<h2 class="mt-md-4 pr-md-7 mb-4">Desarrollamos experiencias de usuario al nivel de tu negocio.</h2>
+
+							<div class="row">
+
+								<div class="lqd-column col-xs-4 col-sm-2 pt-3 mb-4">
+
+									<div class="lqd-h-sep">
+										<span class="lqd-h-sep-inner"></span><!-- /.lqd-h-sep-inner -->
+									</div><!-- /.lqd-h-sep -->
+
+								</div><!-- /.col-sm-2 -->
+
+								<div class="lqd-column col-sm-10 col-xs-12">
+									<p>Ayudamos a nuestros clientes a conectar con sus usuarios por medio de su imagen corporativa, presencia en internet o con ofrecer una alternativa a través de una App movil. </p>
+								</div><!-- /.col-sm-10 -->
+
+							</div><!-- /.row -->
+
+						</header><!-- /.fancy-title -->
+
+					</div><!-- /.col-lg-6 -->
+
+					<div class="lqd-column col-lg-5 col-md-6 col-lg-offset-1">
+
+						<div class="lqd-iconbox-stack" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"400","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
+
+							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-blue" data-plugin-options='{"color": "#3d59e8"}'>
+
+								<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <defs xmlns="http://www.w3.org/2000/svg"> <linearGradient gradientUnits="userSpaceOnUse" id="grad874540" x1="0%" y1="0%" x2="0%" y2="100%"> <stop offset="0%" stop-color="rgb(61, 89, 232)"></stop> <stop offset="100%" stop-color="rgb(61, 89, 232)"></stop> </linearGradient> </defs> <g> <rect x="1" y="10" fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" width="62" height="41"></rect> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="22" y1="63" x2="42" y2="63"></line> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="32" y1="63" x2="32" y2="51"></line> </g> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="43" x2="64" y2="43"></line> </svg>
+									</span>
+								</div><!-- /.iconbox-icon-wrap -->
+								<div class="contents">
+									<p class="font-size-14">
+										<strong>UI / UX</strong>
+									</p>
+								</div><!-- /.contents -->
+
+							</div><!-- /.iconbox -->
+
+							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-pink" data-plugin-options='{"color": "#fe688b"}'>
+
+								<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad681643" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(254, 104, 139)"></stop><stop offset="100%" stop-color="rgb(254, 104, 139)"></stop></linearGradient></defs> <polygon fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" points="1,25 12,59 52,59 63,25 "></polygon> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="14" y1="25" x2="22" y2="5"></line> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="50" y1="25" x2="42" y2="5"></line> <polyline fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,41 30,48 43,35 "></polyline> </svg>
+									</span>
+								</div><!-- /.iconbox-icon-wrap -->
+								<div class="contents">
+									<p class="font-size-14">
+										<strong>ECOMMERCE</strong>
+									</p>
+								</div><!-- /.contents -->
+
+							</div><!-- /.iconbox -->
+
+							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-green" data-plugin-options='{"color": "#28d5a7"}'>
+
+								<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad395875" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(40, 213, 167)"></stop><stop offset="100%" stop-color="rgb(40, 213, 167)"></stop></linearGradient></defs> <rect x="1" y="7" fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" width="62" height="50"></rect> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="15" x2="63" y2="15"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="10" y1="11" x2="6" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="18" y1="11" x2="14" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="26" y1="11" x2="22" y2="11"></line> <polyline fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,35 30,42 43,29 "></polyline> </svg>
+									</span>
+								</div><!-- /.iconbox-icon-wrap -->
+								<div class="contents">
+									<p class="font-size-14">
+										<strong>PAGINAS WEB</strong>
+									</p>
+								</div><!-- /.contents -->
+
+							</div><!-- /.iconbox -->
+
+
+						</div><!-- /.lqd-iconbox-stack -->
+
+					</div><!-- /.col-lg-5 col-md-6 -->
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.vc_row -->
+
+		<section class="vc_row pt-80 pb-120" id="works">
+			<div class="container">
+				<div class="row">
+
+					<div class="lqd-column col-md-12">
+
+						<div class="liquid-portfolio-list">
+
+								<div
+									class="row liquid-portfolio-list-row"
+									data-columns="3"
+									data-liquid-masonry="true"
+									data-masonry-options='{ "layoutMode": "masonry", "alignMid": true }'
+									data-custom-animations="true"
+									data-ca-options='{"triggerHandler":"inview","animationTarget":".ld-pf-item","animateTargetsWhenVisible":"true","duration":"1400","delay":"180","easing":"easeOutQuint","initValues":{"translateY":75,"scale":0.75,"opacity":0},"animations":{"translateY":0,"scale":1,"opacity":1}}'
+								>
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 grid-stamp creative-masonry-grid-stamp"></div>
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-01.png');">
+														<img src="./assets/img/solide/pf-01.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Brand</h3>
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Webpage</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="http://dbflore.com" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-02.png');">
+														<img src="./assets/img/solide/pf-02.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Brand</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="https://www.facebook.com/gallegosclutch" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-03.png');">
+														<img src="./assets/img/solide/pf-03.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Webpage</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="http://cidiemglobal.com.mx/" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-04.png');">
+														<img src="./assets/img/solide/pf-04.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Webpage</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="http://cortinascalisar.com/" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-08.png');">
+														<img src="./assets/img/solide/pf-08.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Webpage</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="http://acparabola.com/" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-05.png');">
+														<img src="./assets/img/solide/pf-05.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Webpage</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="http://www.zonaquimera.com/" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-07.png');">
+														<img src="./assets/img/solide/pf-07.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Ecommerce</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="https://hannascosmetics.com/" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-09.png');">
+														<img src="./assets/img/solide/pf-09.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Webpage</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="http://wistion.com.mx/" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-06.png');">
+														<img src="./assets/img/solide/pf-06.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Brand</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="https://www.facebook.com/TarrosYPromos" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+									<div class="lqd-column col-md-4 col-sm-6 col-xs-12 masonry-item">
+
+										<div class="ld-pf-item ld-pf-light pf-details-inside pf-details-full pf-details-h-mid pf-details-v-mid title-size-32 ld-pf-semiround">
+
+											<div class="ld-pf-inner">
+
+												<div class="ld-pf-image">
+													<figure style="background-image: url('./assets/img/solide/pf-10.png');">
+														<img src="./assets/img/solide/pf-10.png" alt="Portfolio Image">
+													</figure>
+												</div><!-- /.ld-pf-image -->
+
+												<div class="ld-pf-bg bg-gradient-primary-bl opacity-08"></div><!-- /.ld-pf-bg -->
+
+												<div class="ld-pf-details" data-custom-animations="true" data-ca-options='{ "triggerHandler": "mouseenter", "triggerTarget": ".ld-pf-item", "triggerRelation": "closest", "offTriggerHandler": "mouseleave", "animationTarget": ".split-inner", "duration": 200, "delay": 35, "offDuration": 100, "easing": "easeOutCubic", "initValues": { "translateX": 50, "rotateZ": -75, "opacity": 0, "transformOrigin": [0, "-100%", 0] }, "animations": { "translateX": 0, "rotateZ": 0, "opacity": 1, "transformOrigin": [0, "0%", 0] } }'>
+													<div class="ld-pf-details-inner">
+														<h3 class="ld-pf-title h4 font-weight-semibold" data-split-text="true" data-split-options='{ "type": "chars" }'>Vía Whatsapp</h3>
+													</div><!-- /.ld-pf-details-inner -->
+												</div><!-- /.ld-pf-details -->
+
+												<a href="https://api.whatsapp.com/send?phone=526141763011&amp;text=Contacto%desde%solidemx.com" class="liquid-overlay-link"></a>
+
+											</div><!-- /.ld-pf-inner -->
+
+										</div><!-- /.ld-pf-item -->
+
+									</div><!-- /.col-lg-4 col-md-6 -->
+
+								</div><!-- /.row liquid-portfolio-list-row -->
+
+							</div><!-- /.liquid-portfolio-list -->
+
+					</div><!-- /.col-md-12 -->
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+
+		<section class="vc_row pt-30 pb-60" id="services">
+			<div class="container">
+
+				<div class="row">
+
+					<div class="lqd-column col-md-10 col-md-offset-1">
+
+						<header class="fancy-title text-center mb-75" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":80,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">Porqué elegir SOLIDEmx</h6>
+							<h2 class="mt-4 mb-4">Etapas de Desarrollo</h2>
+
+							<div class="row">
+								<div class="lqd-column col-md-6 col-md-offset-3 px-md-5">
+									<p>Nos apasiona trabajar en tu idea para convertirla en producto.</p>
+								</div><!-- /.col-md-6 col-md-offset-3 -->
+							</div><!-- /.row -->
+
+						</header><!-- /.fancy-title -->
+
+					</div><!-- /.col-md-8 col-md-offset-2 -->
+
+				</div><!-- /.row -->
+
+
+
+			</div><!-- /.container -->
+		</section>
+
+		<section id="consultation" class="vc_row pt-100 pb-50 mt-50 bg-cover" data-parallax="true" data-parallax-options='{"parallaxBG": true}' style="background-image: url(./assets/img/solide/fondoSteps.jpg)">
+
+			<div class="liquid-row-overlay bg-black opacity-04"></div><!-- /.liquid-row-overlay -->
+
+			<div class="container">
+				<div class="row">
+
+					<div class="lqd-column col-md-4 col-sm-6 mb-40">
+
+						<div class="iconbox iconbox-xl iconbox-heading-sm px-md-5">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="icon-basic_notebook_pen"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="font-weight-normal text-white">1. Entrevista</h3>
+								<p class="font-size-16 lh-165 text-fade-white-07">Durante el proceso de investigación nos daremos a la tarea de conocer tu negocio y lo que esperas de este proyecto. </p>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.lqd-column col-md-4 col-sm-6 -->
+
+					<div class="lqd-column col-md-4 col-sm-6 mb-40">
+
+						<div class="iconbox iconbox-xl iconbox-heading-sm px-md-5">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="icon-basic_pencil_ruler"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="font-weight-normal text-white">2. Diseño</h3>
+								<p class="font-size-16 lh-165 text-fade-white-07">Destinamos una parte del proceso en definir visualmente como será el producto a entregar para validar antes de cualquier línea de código.</p>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.lqd-column col-md-4 col-sm-6 -->
+
+					<div class="lqd-column col-md-4 col-sm-6 mb-40">
+
+						<div class="iconbox iconbox-xl iconbox-heading-sm px-md-5">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="icon-basic_webpage_img_txt"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="font-weight-normal text-white">3. Prototipo</h3>
+								<p class="font-size-16 lh-165 text-fade-white-07">Basados en el diseño aprobado, crearemos una versión donde podrás validar el flujo de tu página web, aplicación móvil o plataforma.</p>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.lqd-column col-md-4 col-sm-6 -->
+
+					<div class="lqd-column col-md-4 col-sm-6 mb-40">
+
+						<div class="iconbox iconbox-xl iconbox-heading-sm px-md-5">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="fa fa-code"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="font-weight-normal text-white">4. Desarrollo</h3>
+								<p class="font-size-16 lh-165 text-fade-white-07">Aquí es donde la magia ocurre.</p>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.lqd-column col-md-4 col-sm-6 -->
+
+					<div class="lqd-column col-md-4 col-sm-6 mb-40">
+
+						<div class="iconbox iconbox-xl iconbox-heading-sm px-md-5">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="icon-basic_flag2"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="font-weight-normal text-white">5. Validación</h3>
+								<p class="font-size-16 lh-165 text-fade-white-07">Apegados a tu idea original validaremos que el entregable sea lo que cumple con las necesidades de tu negocio.</p>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.lqd-column col-md-4 col-sm-6 -->
+
+					<div class="lqd-column col-md-4 col-sm-6 mb-40">
+
+						<div class="iconbox iconbox-xl iconbox-heading-sm px-md-5">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container text-white">
+									<i class="fa fa-glass-cheers"></i>
+
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+								<h3 class="font-weight-normal text-white">6. Chelas</h3>
+								<p class="font-size-16 lh-165 text-fade-white-07">Festejamos juntos cuando liberemos el producto, onboarding en redes socialesy pasaras a nuestro portafolio.</p>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.lqd-column col-md-4 col-sm-6 -->
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+
+		</section>
+
+
+		<section class="vc_row pt-200 pb-100" id="testimonials">
+			<div class="container">
+				<div class="row">
+
+					<div class="lqd-column col-lg-4 col-md-12" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+
+						<header class="fancy-title mb-130">
+
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">Quieres saber que dicen de nosotros?</h6>
+							<h2 class="mt-4 mb-4">Que opinan nuestros clientes</h2>
+							<p>Tenemos mas de 20 clientes dispuestos a respaldar nuestro trabajo, </p>
+
+						</header><!-- /.fancy-title -->
+
+					</div><!-- /.col-lg-4 col-md-12 -->
+
+
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+
+
+
+		<section class="vc_row pt-50 pb-60">
+			<div class="container">
+				<div class="row">
+
+					<div class="lqd-column col-md-10 col-md-offset-1 text-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":80,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+
+						<header class="fancy-title fancy-title-big mb-6">
+							<h2 data-split-text="true" data-split-options='{"type":"lines"}'>
+								No importa que avance tenga tu proyecto.
+								<br>
+								<span class="font-size-2-15x lh-15 text-primary" data-fittext="true" data-fittext-options='{ "maxFontSize": 70, "minFontSize": 40, "compressor": 0.5 }'>Nosotros de ayudamos</span>
+							</h2>
+						</header><!-- /.fancy-title -->
+
+						<a href="https://api.whatsapp.com/send?phone=526141763011&amp;text=Contacto%desde%solidemx.com" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+							<span>
+								<span class="btn-txt">Envíanos un mensaje</span>
+							</span>
+						</a>
+
+					</div><!-- /.col-md-10 col-md-offset-1 -->
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+
+	</main><!-- /#content.content -->
+
+	<footer class="main-footer pt-80">
+
+		<section class="bt-fade-white-015 pt-90 pb-90">
+			<div class="container">
+				<div class="row">
+
+					<div class="lqd-column col-md-6 col-md-offset-3 text-center">
+
+						<figure class="mb-40">
+							<img src="./assets/img/solide/contralogo_xs.png" alt="Logo">
+						</figure>
+
+						<p>© 2019 SolideMX. Todos los Derechos Reservados.</p>
+
+					</div><!-- /.col-md-6 -->
+
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+
+	</footer><!-- /.main-footer -->
+
+</div><!-- /#wrap -->
+
+<script src="./assets/vendors/jquery.min.js"></script>
+<script src="./assets/js/theme-vendors.js"></script>
+<script src="./assets/js/theme.min.js"></script>
+
 </body>
 </html>
